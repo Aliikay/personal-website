@@ -1,0 +1,6 @@
+# Development Environment
+.direnv/
+.envrc
+
+# LSP Output
+target/
