@@ -4,3 +4,6 @@
 
 # LSP Output
 target/
+
+# Aspell baskups
+*.bak
