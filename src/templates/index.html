@@ -1,3 +1,50 @@
 {% extends "base.html" %} {% block content %}
-<h1 class="title">This is my blog made with Zola.</h1>
+<h1 class="page-title">Welcome!</h1>
+
+<!-- Content Div -->
+<div class="center-container">
+    <div class="main-content-background row-container">
+        <div class="column-container">
+            <div class="section-box pfp">
+                <img class="pfp-image" src="pfp.png" />
+            </div>
+            <div class="section-box navigation column-container">
+                <div class="center-container">
+                    <h3 class="section-title">Navigation</h3>
+                </div>
+
+                <table class="navigation-button-container">
+                    <tr class="navigation-button-row">
+                        <td>
+                            <a class="navigation-button" href="index.html"
+                                >Home</a
+                            >
+                        </td>
+                    </tr>
+
+                    <tr class="navigation-button-row">
+                        <td>
+                            <a class="navigation-button" href="index.html"
+                                >Games</a
+                            >
+                        </td>
+                    </tr>
+
+                    <tr class="navigation-button-row">
+                        <td>
+                            <a class="navigation-button" href="index.html"
+                                >Resources</a
+                            >
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+
+        <div class="section-box article">
+            <p>Main content goes here</p>
+        </div>
+    </div>
+</div>
+
 {% endblock content %}

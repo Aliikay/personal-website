@@ -1,0 +1,138 @@
+/* ===== Color Palette ===== */
+$base-sky: #43436bff;
+$base-blue: #2c2c46ff;
+$base-navy: #1a1a29ff;
+$base: #0b0b11ff;
+$accent-purple: #5d436bff;
+$accent-red: #6b4359ff;
+$accent-brown: #6b4e43ff;
+$accent-high: #fad89cff;
+
+/*
+Source - https://stackoverflow.com/a
+Posted by Ben, modified by community. See post 'Timeline' for change history
+Retrieved 2025-12-30, License - CC BY-SA 3.0
+*/
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    @extend %headings !optional;
+}
+
+/* ===== Utility Styles ===== */
+.center-container {
+    display: flex;
+    justify-content: center;
+}
+
+.row-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.column-container {
+    display: flex;
+    flex-direction: column;
+}
+
+/* ===== Specific Styles ===== */
+/* Site-wide background */
+body.background {
+    background-image: url("bg.png");
+    background-size: 32px 32px;
+
+    /* Nearest filtering */
+    /* IE, only works on <img> tags */
+    -ms-interpolation-mode: nearest-neighbor;
+    /* Firefox */
+    image-rendering: crisp-edges;
+    /* Chromium + Safari */
+    image-rendering: pixelated;
+}
+
+/* Site-wide text formatting */
+p,
+a,
+%headings {
+    color: $accent-high;
+    font-family: "Space mono", monospace;
+}
+
+/* Landing page title */
+h1.page-title {
+    margin-top: 0.3em;
+    margin-bottom: 0.1em;
+    font-size: 8rem;
+    text-align: center;
+    font-weight: bold;
+}
+
+/* Content background */
+div.main-content-background {
+    justify-content: center;
+    background-color: $base-navy;
+    width: 80%;
+    height: 80%;
+    padding: 1em;
+}
+
+/* Any box inside the main content */
+div.section-box {
+    background-color: $base;
+
+    margin: 1em;
+
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+/* The main text content box */
+div.article {
+    flex-grow: 1;
+}
+
+/* Profile picture on the landing page */
+img.pfp-image {
+    width: 288px;
+    height: 305px;
+}
+
+/* Navigation panel rows */
+table.navigation-button-container {
+    border-spacing: 0.5em;
+    margin-top: -1.3em;
+    margin-bottom: 1em;
+}
+
+/* Row container for navigation button */
+tr.navigation-button-row {
+    width: auto;
+    height: 2.5em;
+    text-align: center;
+}
+
+/* Alternate between the three accent colors for navigation buttons */
+tr.navigation-button-row:nth-child(3n + 1) {
+    background-color: $accent-purple;
+}
+tr.navigation-button-row:nth-child(3n - 1) {
+    background-color: $accent-red;
+}
+tr.navigation-button-row:nth-child(3n) {
+    background-color: $accent-brown;
+}
+
+/* Navigation panel buttons */
+a.navigation-button {
+    width: auto;
+    height: auto;
+}
+
+/* Section titles */
+%headings.section-title {
+    font-weight: bold;
+    font-size: 1.4rem;
+}
