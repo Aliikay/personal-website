@@ -1,5 +1,5 @@
-# Portfolio-Website
-This is the source code for my personal website. The site is a static site which is built by Zola.
+# Alikay's Personal Website
+This is the source code for my personal website. The site is a static site which is built with Zola.
 
 # Installation
 ## Nix (recommended)
@@ -7,7 +7,10 @@ Users of a system with the Nix package manager can use the provided flake by run
 ```bash
 nix develop
 ```
-in the project directory (or with a tool like direnv to automatically activate the environment).
+in the project directory (or with a tool like direnv to automatically activate the environment). Alternatively, you can also enter your own dev shell with 
+```bash
+nix-shell -p zola aspell
+```
 
 ### Arch
 The dependencies can be installed with
@@ -15,7 +18,7 @@ The dependencies can be installed with
 sudo pacman -S zola aspell
 ```
 
-## Homebrew (macOS)
+## Homebrew (Linux + macOS)
 The dependencies can be installed with
 ```bash
 brew install zola aspell
