@@ -38,11 +38,30 @@ h6 {
     flex-direction: column;
 }
 
+.expand-to-fill {
+    flex-grow: 1;
+}
+
 /* ===== Specific Styles ===== */
 /* Site-wide background */
+@keyframes move-tiles {
+    from {
+        background-position: 0px 0px;
+    }
+
+    to {
+        background-position: 32px 32px;
+    }
+}
+
 body.background {
     background-image: url("bg.png");
     background-size: 32px 32px;
+
+    animation-name: move-tiles;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
 
     /* Nearest filtering */
     /* IE, only works on <img> tags */

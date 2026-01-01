@@ -1,0 +1,15 @@
+{% extends "two-column-with-nav.html" %} {% block pagetitle %}
+<h1 class="page-title">{{ section.title }}</h1>
+{% endblock pagetitle %} {% block abovearticle %}
+<div class="section-box">
+    <p>{{ section.content | safe}}</p>
+</div>
+{% endblock abovearticle %} {% block article %}
+<ul>
+    <!-- If you are using pagination, section.pages will be empty.
+       You need to use the paginator object -->
+    {% for page in section.pages %}
+    <li><a href="{{ page.permalink | safe }}">{{ page.title }}</a></li>
+    {% endfor %}
+</ul>
+{% endblock article%}
