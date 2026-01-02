@@ -9,31 +9,33 @@ pagetitle %}
                     <h3 class="section-title">Navigation</h3>
                 </div>
 
-                <table class="navigation-button-container">
-                    <tr class="navigation-button-row">
-                        <td>
-                            <a class="navigation-button" href="/">Home</a>
-                        </td>
-                    </tr>
+                <div class="navigation-button-container">
+                    <!--<tr>-->
+                    <div class="navigation-button-row">
+                        <a class="navigation-button no-underline" href="/"
+                            >Home</a
+                        >
+                    </div>
+                    <!--</tr>-->
 
-                    <tr class="navigation-button-row">
-                        <td>
-                            <a
-                                class="navigation-button"
-                                href="{{ get_url(path='@/games/_index.md') }}"
-                                >Games</a
-                            >
-                        </td>
-                    </tr>
+                    <!--<tr>-->
+                    <div class="navigation-button-row">
+                        <a
+                            class="navigation-button no-underline"
+                            href="{{ get_url(path='@/games/_index.md') }}"
+                            >Games</a
+                        >
+                    </div>
+                    <!--</tr>-->
 
-                    <tr class="navigation-button-row">
-                        <td>
-                            <a class="navigation-button" href="index.html"
-                                >Resources</a
-                            >
-                        </td>
-                    </tr>
-                </table>
+                    <!--<tr>-->
+                    <div class="navigation-button-row">
+                        <a class="navigation-button no-underline" href="/"
+                            >Resources</a
+                        >
+                    </div>
+                    <!--</tr>-->
+                </div>
             </div>
         </div>
 
@@ -44,5 +46,5 @@ pagetitle %}
             </div>
         </div>
     </div>
+    {% endblock content %}
 </div>
-{% endblock content %}

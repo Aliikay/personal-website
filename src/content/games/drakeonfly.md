@@ -1,6 +1,10 @@
 +++
 title = "Drakeonfly"
 date = 2025-11-16
+description = "A rail shooter made in Godot for the Games Den Hibernation Jam 2025."
+
+[extra]
+thumbnail = "/thumbs/drakeonfly.png"
 +++
 
 Drakeonfly was made for the Hibernation Jam 2025, put on by the University of Alberta Games Den.

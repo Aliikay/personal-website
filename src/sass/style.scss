@@ -8,6 +8,13 @@ $accent-red: #6b4359ff;
 $accent-brown: #6b4e43ff;
 $accent-high: #fad89cff;
 
+/* Border radii */
+$border-small: 8px;
+$border-smaller: 4px;
+
+/* Paddings */
+$section-padding: 12px;
+
 /*
 Source - https://stackoverflow.com/a
 Posted by Ben, modified by community. See post 'Timeline' for change history
@@ -26,6 +33,11 @@ h6 {
 .center-container {
     display: flex;
     justify-content: center;
+}
+
+.center-column-container {
+    display: flex;
+    align-items: center;
 }
 
 .row-container {
@@ -55,6 +67,8 @@ h6 {
 }
 
 body.background {
+    /* Fallback color before the image has loaded */
+    background-color: $base;
     background-image: url("bg.png");
     background-size: 32px 32px;
 
@@ -78,6 +92,11 @@ a,
 %headings {
     color: $accent-high;
     font-family: "Space mono", monospace;
+    font-size: 16px;
+}
+
+a.no-underline {
+    text-decoration-line: none;
 }
 
 /* Landing page title */
@@ -96,6 +115,7 @@ div.main-content-background {
     width: 80%;
     height: 80%;
     padding: 1em;
+    border-radius: $border-small;
 }
 
 /* Any box inside the main content */
@@ -103,9 +123,14 @@ div.section-box {
     background-color: $base;
 
     margin: 1em;
+    padding: $section-padding;
+    border-radius: $border-small;
+}
 
-    padding-left: 1em;
-    padding-right: 1em;
+/* Section titles */
+%headings.section-title {
+    font-weight: bold;
+    font-size: 1.4rem;
 }
 
 /* The main text content box */
@@ -119,39 +144,81 @@ img.pfp-image {
     height: 305px;
 }
 
+/* ===== Navigation Section ===== */
+
+/* Navigation container */
+div.navigation {
+    min-width: 300px;
+}
+
 /* Navigation panel rows */
-table.navigation-button-container {
-    border-spacing: 0.5em;
-    margin-top: -1.3em;
-    margin-bottom: 1em;
+div.navigation-button-container {
 }
 
 /* Row container for navigation button */
-tr.navigation-button-row {
+div.navigation-button-row {
     width: auto;
     height: 2.5em;
     text-align: center;
+    margin: 8px;
+    border-radius: $border-smaller;
+    transition: background-color 0.25s;
 }
 
 /* Alternate between the three accent colors for navigation buttons */
-tr.navigation-button-row:nth-child(3n + 1) {
+div.navigation-button-row:nth-child(3n + 1) {
     background-color: $accent-purple;
 }
-tr.navigation-button-row:nth-child(3n - 1) {
+div.navigation-button-row:nth-child(3n - 1) {
     background-color: $accent-red;
 }
-tr.navigation-button-row:nth-child(3n) {
+div.navigation-button-row:nth-child(3n) {
     background-color: $accent-brown;
+}
+div.navigation-button-row:hover {
+    background-color: $base-sky;
+    font-weight: bold;
 }
 
 /* Navigation panel buttons */
 a.navigation-button {
     width: auto;
     height: auto;
+    display: block;
+    padding-top: 8px;
+    padding-bottom: 8px;
 }
 
-/* Section titles */
-%headings.section-title {
-    font-weight: bold;
-    font-size: 1.4rem;
+/* ===== Games Page Styling ===== */
+div.game-box-container {
+}
+
+div.game-box {
+    background-color: $base-navy;
+    transition: background-color 0.25s;
+
+    border-radius: $border-small;
+}
+div.game-box:not(:first-child) {
+    margin-top: $section-padding;
+}
+
+/* Alternating color on hover definitions */
+div.game-box:nth-child(3n + 1):hover {
+    background-color: $accent-purple;
+}
+div.game-box:nth-child(3n - 1):hover {
+    background-color: $accent-red;
+}
+div.game-box:nth-child(3n):hover {
+    background-color: $accent-brown;
+}
+
+/* Thumbnail for the games in the games list page */
+img.game-card-thumbnail {
+    width: 128px;
+    height: 128px;
+
+    margin: 12px;
+    border-radius: $border-small;
 }

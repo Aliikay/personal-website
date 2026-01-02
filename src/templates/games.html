@@ -5,11 +5,25 @@
     <p>{{ section.content | safe}}</p>
 </div>
 {% endblock abovearticle %} {% block article %}
-<ul>
-    <!-- If you are using pagination, section.pages will be empty.
+<!-- If you are using pagination, section.pages will be empty.
        You need to use the paginator object -->
-    {% for page in section.pages %}
-    <li><a href="{{ page.permalink | safe }}">{{ page.title }}</a></li>
+<div class="game-box-container">
+    {% for game in section.pages %}
+    <div class="game-box">
+        <a
+            class="no-underline row-container center-column-container"
+            href="{{ game.permalink | safe }}"
+        >
+            <img
+                class="game-card-thumbnail"
+                src="{{ game.extra.thumbnail | safe }}"
+            />
+            <div class="column-container">
+                <h3>{{ game.title | safe }}</h3>
+                <p>{{ game.description | safe }}</p>
+            </div>
+        </a>
+    </div>
     {% endfor %}
-</ul>
+</div>
 {% endblock article%}

@@ -26,15 +26,15 @@
      inkscape:document-units="mm"
      showguides="true"
      showgrid="false"
-     inkscape:zoom="0.08838835"
-     inkscape:cx="3037.7306"
-     inkscape:cy="2879.3387"
+     inkscape:zoom="0.1767767"
+     inkscape:cx="11155.316"
+     inkscape:cy="3280.9754"
      inkscape:window-width="2528"
-     inkscape:window-height="1321"
+     inkscape:window-height="1318"
      inkscape:window-x="24"
      inkscape:window-y="21"
      inkscape:window-maximized="0"
-     inkscape:current-layer="layer6">
+     inkscape:current-layer="g128">
     <inkscape:grid
        id="grid1"
        units="mm"
@@ -52,6 +52,12 @@
   </sodipodi:namedview>
   <defs
      id="defs1">
+    <rect
+       x="13960"
+       y="6187.9998"
+       width="79.999998"
+       height="503.99999"
+       id="rect7" />
     <linearGradient
        id="swatch13">
       <stop
@@ -70,7 +76,7 @@
        id="swatch10"
        inkscape:swatch="solid"
        inkscape:label="accent-high"
-       gradientTransform="matrix(0.02022299,0,0,0.02022299,-1351.466,-965.72026)">
+       gradientTransform="matrix(0.02022299,0,0,0.02022299,-645.80545,-1081.3884)">
       <stop
          style="stop-color:#fad89c;stop-opacity:1;"
          offset="0"
@@ -99,7 +105,7 @@
        id="swatch7"
        inkscape:swatch="solid"
        inkscape:label="accent-purple"
-       gradientTransform="matrix(1.3151809,0,0,1.3151809,-1423.5194,-3315.0387)">
+       gradientTransform="matrix(1.3151809,0,0,1.3151809,-933.3178,-3495.7373)">
       <stop
          style="stop-color:#5d436b;stop-opacity:1;"
          offset="0"
@@ -195,6 +201,18 @@
        id="linearGradient1"
        gradientTransform="matrix(0.01605995,0,0,0.01605995,-371.17902,-296.69333)"
        gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#swatch10"
+       id="linearGradient135"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.01605995,0,0,0.01605995,-371.17902,-296.69333)" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#swatch3"
+       id="linearGradient121"
+       gradientTransform="matrix(1.3151809,0,0,1.3151809,-933.3178,-3495.7373)"
+       gradientUnits="userSpaceOnUse" />
   </defs>
   <g
      inkscape:label="Homepage"
@@ -256,159 +274,159 @@
            transform="matrix(0.99565309,0,0,1.0043659,-32.369955,24.110682)"><tspan
              x="525.65417"
              y="233.88721"
-             id="tspan31"><tspan
+             id="tspan70"><tspan
                style="font-size:25.2891px;-inkscape-font-specification:'Space Mono, Normal'"
-               id="tspan28">Lorem ipsum dolor sit amet consectetur adipiscing </tspan></tspan><tspan
+               id="tspan31">Lorem ipsum dolor sit amet consectetur adipiscing </tspan></tspan><tspan
              x="525.65417"
              y="271.97171"
-             id="tspan69"><tspan
+             id="tspan72"><tspan
                style="font-size:25.2891px;-inkscape-font-specification:'Space Mono, Normal'"
-               id="tspan68">elit. Quisque faucibus ex sapien vitae pellentesque </tspan></tspan><tspan
+               id="tspan71">elit. Quisque faucibus ex sapien vitae pellentesque </tspan></tspan><tspan
              x="525.65417"
              y="310.05621"
-             id="tspan71"><tspan
+             id="tspan74"><tspan
                style="font-size:25.2891px;-inkscape-font-specification:'Space Mono, Normal'"
-               id="tspan70">sem placerat. In id cursus mi pretium tellus duis </tspan></tspan><tspan
+               id="tspan73">sem placerat. In id cursus mi pretium tellus duis </tspan></tspan><tspan
              x="525.65417"
              y="348.14072"
-             id="tspan73"><tspan
+             id="tspan76"><tspan
                style="font-size:25.2891px;-inkscape-font-specification:'Space Mono, Normal'"
-               id="tspan72">convallis. Tempus leo eu aenean sed diam urna tempor. </tspan></tspan><tspan
+               id="tspan75">convallis. Tempus leo eu aenean sed diam urna tempor. </tspan></tspan><tspan
              x="525.65417"
              y="386.22522"
-             id="tspan75"><tspan
+             id="tspan78"><tspan
                style="font-size:25.2891px;-inkscape-font-specification:'Space Mono, Normal'"
-               id="tspan74">Pulvinar vivamus fringilla lacus nec metus bibendum </tspan></tspan><tspan
+               id="tspan77">Pulvinar vivamus fringilla lacus nec metus bibendum </tspan></tspan><tspan
              x="525.65417"
              y="424.30972"
-             id="tspan77"><tspan
+             id="tspan80"><tspan
                style="font-size:25.2891px;-inkscape-font-specification:'Space Mono, Normal'"
-               id="tspan76">egestas. Iaculis massa nisl malesuada lacinia integer </tspan></tspan><tspan
+               id="tspan79">egestas. Iaculis massa nisl malesuada lacinia integer </tspan></tspan><tspan
              x="525.65417"
              y="462.39423"
-             id="tspan79"><tspan
+             id="tspan82"><tspan
                style="font-size:25.2891px;-inkscape-font-specification:'Space Mono, Normal'"
-               id="tspan78">nunc posuere. Ut hendrerit semper vel class aptent </tspan></tspan><tspan
+               id="tspan81">nunc posuere. Ut hendrerit semper vel class aptent </tspan></tspan><tspan
              x="525.65417"
              y="500.47873"
-             id="tspan81"><tspan
+             id="tspan84"><tspan
                style="font-size:25.2891px;-inkscape-font-specification:'Space Mono, Normal'"
-               id="tspan80">taciti sociosqu. Ad litora torquent per conubia nostra </tspan></tspan><tspan
+               id="tspan83">taciti sociosqu. Ad litora torquent per conubia nostra </tspan></tspan><tspan
              x="525.65417"
              y="538.56323"
-             id="tspan83"><tspan
+             id="tspan86"><tspan
                style="font-size:25.2891px;-inkscape-font-specification:'Space Mono, Normal'"
-               id="tspan82">inceptos himenaeos.
+               id="tspan85">inceptos himenaeos.
 </tspan></tspan><tspan
              x="525.65417"
              y="576.64774"
-             id="tspan85"><tspan
+             id="tspan88"><tspan
                style="font-size:25.2891px;-inkscape-font-specification:'Space Mono, Normal'"
-               id="tspan84">
+               id="tspan87">
 </tspan></tspan><tspan
              x="525.65417"
              y="614.73221"
-             id="tspan87"><tspan
+             id="tspan90"><tspan
                style="font-size:25.2891px;-inkscape-font-specification:'Space Mono, Normal'"
-               id="tspan86">Lorem ipsum dolor sit amet consectetur adipiscing </tspan></tspan><tspan
+               id="tspan89">Lorem ipsum dolor sit amet consectetur adipiscing </tspan></tspan><tspan
              x="525.65417"
              y="652.81668"
-             id="tspan89"><tspan
+             id="tspan92"><tspan
                style="font-size:25.2891px;-inkscape-font-specification:'Space Mono, Normal'"
-               id="tspan88">elit. Quisque faucibus ex sapien vitae pellentesque </tspan></tspan><tspan
+               id="tspan91">elit. Quisque faucibus ex sapien vitae pellentesque </tspan></tspan><tspan
              x="525.65417"
              y="690.90115"
-             id="tspan91"><tspan
+             id="tspan94"><tspan
                style="font-size:25.2891px;-inkscape-font-specification:'Space Mono, Normal'"
-               id="tspan90">sem placerat. In id cursus mi pretium tellus duis </tspan></tspan><tspan
+               id="tspan93">sem placerat. In id cursus mi pretium tellus duis </tspan></tspan><tspan
              x="525.65417"
              y="728.98563"
-             id="tspan93"><tspan
+             id="tspan96"><tspan
                style="font-size:25.2891px;-inkscape-font-specification:'Space Mono, Normal'"
-               id="tspan92">convallis. Tempus leo eu aenean sed diam urna tempor. </tspan></tspan><tspan
+               id="tspan95">convallis. Tempus leo eu aenean sed diam urna tempor. </tspan></tspan><tspan
              x="525.65417"
              y="767.0701"
-             id="tspan95"><tspan
+             id="tspan98"><tspan
                style="font-size:25.2891px;-inkscape-font-specification:'Space Mono, Normal'"
-               id="tspan94">Pulvinar vivamus fringilla lacus nec metus bibendum </tspan></tspan><tspan
+               id="tspan97">Pulvinar vivamus fringilla lacus nec metus bibendum </tspan></tspan><tspan
              x="525.65417"
              y="805.15457"
-             id="tspan97"><tspan
+             id="tspan100"><tspan
                style="font-size:25.2891px;-inkscape-font-specification:'Space Mono, Normal'"
-               id="tspan96">egestas. Iaculis massa nisl malesuada lacinia integer </tspan></tspan><tspan
+               id="tspan99">egestas. Iaculis massa nisl malesuada lacinia integer </tspan></tspan><tspan
              x="525.65417"
              y="843.23905"
-             id="tspan99"><tspan
+             id="tspan102"><tspan
                style="font-size:25.2891px;-inkscape-font-specification:'Space Mono, Normal'"
-               id="tspan98">nunc posuere. Ut hendrerit semper vel class aptent </tspan></tspan><tspan
+               id="tspan101">nunc posuere. Ut hendrerit semper vel class aptent </tspan></tspan><tspan
              x="525.65417"
              y="881.32352"
-             id="tspan101"><tspan
+             id="tspan104"><tspan
                style="font-size:25.2891px;-inkscape-font-specification:'Space Mono, Normal'"
-               id="tspan100">taciti sociosqu. Ad litora torquent per conubia nostra </tspan></tspan><tspan
+               id="tspan103">taciti sociosqu. Ad litora torquent per conubia nostra </tspan></tspan><tspan
              x="525.65417"
              y="919.40799"
-             id="tspan103"><tspan
+             id="tspan106"><tspan
                style="font-size:25.2891px;-inkscape-font-specification:'Space Mono, Normal'"
-               id="tspan102">inceptos himenaeos.
+               id="tspan105">inceptos himenaeos.
 </tspan></tspan><tspan
              x="525.65417"
              y="957.49246"
-             id="tspan105"><tspan
+             id="tspan108"><tspan
                style="font-size:25.2891px;-inkscape-font-specification:'Space Mono, Normal'"
-               id="tspan104">
+               id="tspan107">
 </tspan></tspan><tspan
              x="525.65417"
              y="995.57694"
-             id="tspan107"><tspan
+             id="tspan110"><tspan
                style="font-size:25.2891px;-inkscape-font-specification:'Space Mono, Normal'"
-               id="tspan106">Lorem ipsum dolor sit amet consectetur adipiscing </tspan></tspan><tspan
+               id="tspan109">Lorem ipsum dolor sit amet consectetur adipiscing </tspan></tspan><tspan
              x="525.65417"
              y="1033.6614"
-             id="tspan109"><tspan
+             id="tspan112"><tspan
                style="font-size:25.2891px;-inkscape-font-specification:'Space Mono, Normal'"
-               id="tspan108">elit. Quisque faucibus ex sapien vitae pellentesque </tspan></tspan><tspan
+               id="tspan111">elit. Quisque faucibus ex sapien vitae pellentesque </tspan></tspan><tspan
              x="525.65417"
              y="1071.7459"
-             id="tspan111"><tspan
+             id="tspan114"><tspan
                style="font-size:25.2891px;-inkscape-font-specification:'Space Mono, Normal'"
-               id="tspan110">sem placerat. In id cursus mi pretium tellus duis </tspan></tspan><tspan
+               id="tspan113">sem placerat. In id cursus mi pretium tellus duis </tspan></tspan><tspan
              x="525.65417"
              y="1109.8304"
-             id="tspan113"><tspan
+             id="tspan116"><tspan
                style="font-size:25.2891px;-inkscape-font-specification:'Space Mono, Normal'"
-               id="tspan112">convallis. Tempus leo eu aenean sed diam urna tempor. </tspan></tspan><tspan
+               id="tspan115">convallis. Tempus leo eu aenean sed diam urna tempor. </tspan></tspan><tspan
              x="525.65417"
              y="1147.9148"
-             id="tspan115"><tspan
+             id="tspan118"><tspan
                style="font-size:25.2891px;-inkscape-font-specification:'Space Mono, Normal'"
-               id="tspan114">Pulvinar vivamus fringilla lacus nec metus bibendum </tspan></tspan><tspan
+               id="tspan117">Pulvinar vivamus fringilla lacus nec metus bibendum </tspan></tspan><tspan
              x="525.65417"
              y="1185.9993"
-             id="tspan117"><tspan
+             id="tspan120"><tspan
                style="font-size:25.2891px;-inkscape-font-specification:'Space Mono, Normal'"
-               id="tspan116">egestas. Iaculis massa nisl malesuada lacinia integer </tspan></tspan><tspan
+               id="tspan119">egestas. Iaculis massa nisl malesuada lacinia integer </tspan></tspan><tspan
              x="525.65417"
              y="1224.0838"
-             id="tspan119"><tspan
-               style="font-size:25.2891px;-inkscape-font-specification:'Space Mono, Normal'"
-               id="tspan118">nunc posuere. Ut hendrerit semper vel class aptent </tspan></tspan><tspan
-             x="525.65417"
-             y="1262.1682"
-             id="tspan121"><tspan
-               style="font-size:25.2891px;-inkscape-font-specification:'Space Mono, Normal'"
-               id="tspan120">taciti sociosqu. Ad litora torquent per conubia nostra </tspan></tspan><tspan
-             x="525.65417"
-             y="1300.2527"
              id="tspan123"><tspan
                style="font-size:25.2891px;-inkscape-font-specification:'Space Mono, Normal'"
-               id="tspan122">inceptos himenaeos.
+               id="tspan122">nunc posuere. Ut hendrerit semper vel class aptent </tspan></tspan><tspan
+             x="525.65417"
+             y="1262.1682"
+             id="tspan125"><tspan
+               style="font-size:25.2891px;-inkscape-font-specification:'Space Mono, Normal'"
+               id="tspan124">taciti sociosqu. Ad litora torquent per conubia nostra </tspan></tspan><tspan
+             x="525.65417"
+             y="1300.2527"
+             id="tspan127"><tspan
+               style="font-size:25.2891px;-inkscape-font-specification:'Space Mono, Normal'"
+               id="tspan126">inceptos himenaeos.
 </tspan></tspan><tspan
              x="525.65417"
              y="1338.3372"
-             id="tspan125"><tspan
+             id="tspan131"><tspan
                style="font-size:25.2891px;-inkscape-font-specification:'Space Mono, Normal'"
-               id="tspan124">
+               id="tspan128">
 </tspan></tspan></text>
       </g>
       <g
@@ -469,7 +487,7 @@
            id="text30-9"><tspan
              x="162.97153"
              y="747.97827"
-             id="tspan126">Games</tspan></text>
+             id="tspan133">Games</tspan></text>
         <rect
            style="fill:url(#swatch9);stroke:none;stroke-width:6.23064;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:6.5;stroke-dasharray:none;paint-order:normal"
            id="rect30-2"
@@ -492,14 +510,14 @@
       </g>
       <text
          xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:166.652px;line-height:0px;font-family:'Space Mono';-inkscape-font-specification:'Space Mono, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;white-space:pre;inline-size:1722.6;fill:url(#swatch10);stroke:none;stroke-width:18.6053;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:6.5;stroke-dasharray:none;paint-order:normal"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:166.652px;line-height:0px;font-family:'Space Mono';-inkscape-font-specification:'Space Mono, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;white-space:pre;inline-size:1722.6;display:inline;fill:url(#swatch10);stroke:none;stroke-width:18.6053;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:6.5;stroke-dasharray:none;paint-order:normal"
          x="569.04291"
          y="29.534126"
          id="text31"
          transform="translate(396.80409,192.59178)"><tspan
            x="569.04291"
            y="29.534126"
-           id="tspan127">Website Title</tspan></text>
+           id="tspan134">Website Title</tspan></text>
     </g>
     <g
        inkscape:groupmode="layer"
@@ -515,6 +533,286 @@
       <ellipse
          style="fill:url(#linearGradient1);stroke:none;stroke-width:4.99002;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:6.5;stroke-dasharray:none;paint-order:normal"
          id="path31"
+         cx="467.3472"
+         cy="515.82178"
+         rx="172.58887"
+         ry="154.75385" />
+    </g>
+  </g>
+  <g
+     inkscape:label="Games"
+     inkscape:groupmode="layer"
+     id="g135"
+     transform="translate(2140.2943)">
+    <g
+       inkscape:groupmode="layer"
+       id="g2"
+       inkscape:label="BG">
+      <rect
+         style="fill:url(#swatch5);fill-opacity:1;stroke:none;stroke-width:5.755;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:6.5;stroke-dasharray:none;paint-order:stroke fill markers"
+         id="rect1"
+         width="1918.6594"
+         height="1086.0419"
+         x="1.0282686"
+         y="-1.0296853"
+         ry="4.0636263"
+         inkscape:label="bg" />
+      <rect
+         style="fill:url(#pattern15-5);fill-opacity:1;stroke:none;stroke-width:5.755;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:6.5;stroke-dasharray:none;paint-order:stroke fill markers"
+         id="rect2"
+         width="1918.6594"
+         height="1086.0419"
+         x="1.3405762"
+         y="0"
+         ry="4.0636263"
+         inkscape:label="bg-stars" />
+    </g>
+    <g
+       inkscape:groupmode="layer"
+       id="g133"
+       inkscape:label="Banner">
+      <rect
+         style="font-variation-settings:'wght' 400;fill:url(#swatch2);stroke:none;stroke-width:6.37967;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:6.5;stroke-dasharray:none;paint-order:normal"
+         id="rect3"
+         width="1522.9087"
+         height="1619.4395"
+         x="204.39272"
+         y="270.28033"
+         inkscape:label="bg-banner" />
+      <g
+         inkscape:groupmode="layer"
+         id="g128"
+         inkscape:label="Main Content"
+         transform="translate(296.95776,238.41309)">
+        <rect
+           style="font-variation-settings:'wght' 400;fill:url(#swatch5);stroke:none;stroke-width:23.3109;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:6.5;stroke-dasharray:none;paint-order:normal"
+           id="rect4"
+           width="950.38019"
+           height="1321.0977"
+           x="423.86206"
+           y="99.296394" />
+        <rect
+           style="fill:url(#swatch7);stroke:none;stroke-width:6.23064;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:6.5;stroke-dasharray:none;paint-order:normal"
+           id="rect129-5"
+           width="888.92975"
+           height="219.3318"
+           x="456.91891"
+           y="127.48032"
+           ry="18.332853" />
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:60.6447px;line-height:0px;font-family:'Space Mono';-inkscape-font-specification:'Space Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:url(#swatch10);stroke:none;stroke-width:13.7406;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:6.5;stroke-dasharray:none;paint-order:normal"
+           x="692.8255"
+           y="194.10802"
+           id="text129-2"><tspan
+             id="tspan129-9"
+             style="font-weight:bold;fill:url(#swatch10);stroke-width:13.7406"
+             x="692.8255"
+             y="194.10802"
+             sodipodi:role="line">Slipstream</tspan></text>
+        <rect
+           style="fill:#ffca4f;stroke:#2930bc;stroke-width:3.4;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:6.5;paint-order:stroke fill markers"
+           id="rect6"
+           width="188.58537"
+           height="188.58537"
+           x="475.34424"
+           y="144.74449"
+           ry="2.6259146" />
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:173.914px;line-height:0px;font-family:'Space Mono';-inkscape-font-specification:'Space Mono, @wght=400';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 400;text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;white-space:pre;inline-size:662.027;display:inline;fill:url(#swatch10);stroke:none;stroke-width:5.72983;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:6.5;stroke-dasharray:none;paint-order:normal"
+           x="525.65417"
+           y="233.88721"
+           id="text18-3"
+           transform="matrix(0.99565309,0,0,1.0043659,164.53305,7.7207532)"><tspan
+             x="525.65417"
+             y="233.88721"
+             id="tspan136"><tspan
+               style="font-size:25.2891px;-inkscape-font-specification:'Space Mono, Normal'"
+               id="tspan135">Lorem ipsum dolor sit amet consectetur </tspan></tspan><tspan
+             x="525.65417"
+             y="271.97171"
+             id="tspan138"><tspan
+               style="font-size:25.2891px;-inkscape-font-specification:'Space Mono, Normal'"
+               id="tspan137">adipiscing elit. Quisque faucibus ex </tspan></tspan><tspan
+             x="525.65417"
+             y="310.05621"
+             id="tspan140"><tspan
+               style="font-size:25.2891px;-inkscape-font-specification:'Space Mono, Normal'"
+               id="tspan139">sapien vitae pellentesque sem placerat.
+</tspan></tspan><tspan
+             x="525.65417"
+             y="348.14072"
+             id="tspan142"><tspan
+               style="font-size:25.2891px;-inkscape-font-specification:'Space Mono, Normal'"
+               id="tspan141">
+</tspan></tspan></text>
+        <text
+           xml:space="preserve"
+           transform="matrix(0.26458333,0,0,0.26458333,-2437.2521,-238.41309)"
+           id="text7"
+           style="font-size:26.6667px;font-family:'Fugaz One';-inkscape-font-specification:'Fugaz One, Normal';text-align:start;writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect7);display:inline;fill:#ffca4f;stroke:#2930bc;stroke-width:12.8504;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:6.5;paint-order:stroke fill markers" />
+        <rect
+           style="fill:url(#linearGradient121);stroke:none;stroke-width:6.23064;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:6.5;stroke-dasharray:none;paint-order:normal"
+           id="rect129-5-7"
+           width="888.92975"
+           height="219.3318"
+           x="457.4465"
+           y="368.05353"
+           ry="18.332853" />
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:60.6447px;line-height:0px;font-family:'Space Mono';-inkscape-font-specification:'Space Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:url(#swatch10);stroke:none;stroke-width:13.7406;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:6.5;stroke-dasharray:none;paint-order:normal"
+           x="693.35309"
+           y="434.68121"
+           id="text129-2-8"><tspan
+             id="tspan129-9-4"
+             style="font-weight:bold;fill:url(#swatch10);stroke-width:13.7406"
+             x="693.35309"
+             y="434.68121"
+             sodipodi:role="line">Slipstream</tspan></text>
+        <rect
+           style="fill:#ffca4f;stroke:#2930bc;stroke-width:3.4;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:6.5;paint-order:stroke fill markers"
+           id="rect6-5"
+           width="188.58537"
+           height="188.58537"
+           x="475.87192"
+           y="385.31769"
+           ry="2.6259146" />
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:173.914px;line-height:0px;font-family:'Space Mono';-inkscape-font-specification:'Space Mono, @wght=400';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 400;text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;white-space:pre;inline-size:662.027;display:inline;fill:url(#swatch10);stroke:none;stroke-width:5.72983;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:6.5;stroke-dasharray:none;paint-order:normal"
+           x="525.65417"
+           y="233.88721"
+           id="text18-3-0"
+           transform="matrix(0.99565309,0,0,1.0043659,165.06069,248.29395)"><tspan
+             x="525.65417"
+             y="233.88721"
+             id="tspan144"><tspan
+               style="font-size:25.2891px;-inkscape-font-specification:'Space Mono, Normal'"
+               id="tspan143">Lorem ipsum dolor sit amet consectetur </tspan></tspan><tspan
+             x="525.65417"
+             y="271.97171"
+             id="tspan146"><tspan
+               style="font-size:25.2891px;-inkscape-font-specification:'Space Mono, Normal'"
+               id="tspan145">adipiscing elit. Quisque faucibus ex </tspan></tspan><tspan
+             x="525.65417"
+             y="310.05621"
+             id="tspan148"><tspan
+               style="font-size:25.2891px;-inkscape-font-specification:'Space Mono, Normal'"
+               id="tspan147">sapien vitae pellentesque sem placerat.
+</tspan></tspan><tspan
+             x="525.65417"
+             y="348.14072"
+             id="tspan150"><tspan
+               style="font-size:25.2891px;-inkscape-font-specification:'Space Mono, Normal'"
+               id="tspan149">
+</tspan></tspan></text>
+      </g>
+      <g
+         inkscape:groupmode="layer"
+         id="g132"
+         inkscape:label="Navigation"
+         transform="translate(296.95775,238.41309)">
+        <rect
+           style="font-variation-settings:'wght' 400;fill:url(#swatch5);stroke:none;stroke-width:13.6798;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:6.5;stroke-dasharray:none;paint-order:normal"
+           id="rect128"
+           width="398.09442"
+           height="1086.1477"
+           x="-28.657749"
+           y="480.55319" />
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:60.6447px;line-height:0px;font-family:'Space Mono';-inkscape-font-specification:'Space Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:url(#swatch10);stroke:none;stroke-width:13.7406;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:6.5;stroke-dasharray:none;paint-order:normal"
+           x="-12.307503"
+           y="550.34924"
+           id="text129"><tspan
+             id="tspan129"
+             style="font-weight:bold;fill:url(#swatch10);stroke-width:13.7406"
+             x="-12.307503"
+             y="550.34924"
+             sodipodi:role="line">Navigation</tspan></text>
+        <rect
+           style="fill:url(#swatch7);stroke:none;stroke-width:6.23064;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:6.5;stroke-dasharray:none;paint-order:normal"
+           id="rect129"
+           width="342.82974"
+           height="85.981812"
+           x="-3.1217365"
+           y="588.96881"
+           ry="18.332853" />
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:51.5487px;line-height:0px;font-family:'Space Mono';-inkscape-font-specification:'Space Mono, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:url(#swatch10);stroke:none;stroke-width:11.6796;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:6.5;stroke-dasharray:none;paint-order:normal"
+           x="162.97153"
+           y="646.12122"
+           id="text130"><tspan
+             id="tspan130"
+             style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:51.5487px;font-family:'Space Mono';-inkscape-font-specification:'Space Mono, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;stroke-width:11.6796"
+             x="162.97153"
+             y="646.12122"
+             sodipodi:role="line">Home</tspan></text>
+        <rect
+           style="fill:url(#swatch8);stroke:none;stroke-width:6.23064;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:6.5;stroke-dasharray:none;paint-order:normal"
+           id="rect130"
+           width="342.82974"
+           height="85.981812"
+           x="-3.1217279"
+           y="690.82587"
+           ry="18.332853" />
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:51.5487px;line-height:0px;font-family:'Space Mono';-inkscape-font-specification:'Space Mono, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;white-space:pre;inline-size:252.878;display:inline;fill:url(#swatch10);stroke:none;stroke-width:11.6796;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:6.5;stroke-dasharray:none;paint-order:normal"
+           x="162.97153"
+           y="747.97827"
+           id="text131"><tspan
+             x="162.97153"
+             y="747.97827"
+             id="tspan151">Games</tspan></text>
+        <rect
+           style="fill:url(#swatch9);stroke:none;stroke-width:6.23064;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:6.5;stroke-dasharray:none;paint-order:normal"
+           id="rect131"
+           width="342.82974"
+           height="85.981812"
+           x="-3.1217442"
+           y="791.62457"
+           ry="18.332853" />
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:51.5487px;line-height:0px;font-family:'Space Mono';-inkscape-font-specification:'Space Mono, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:url(#swatch10);stroke:none;stroke-width:11.6796;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:6.5;stroke-dasharray:none;paint-order:normal"
+           x="162.97151"
+           y="848.77698"
+           id="text132"><tspan
+             id="tspan132"
+             style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:51.5487px;font-family:'Space Mono';-inkscape-font-specification:'Space Mono, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;stroke-width:11.6796"
+             x="162.97153"
+             y="848.77698"
+             sodipodi:role="line">Resources</tspan></text>
+      </g>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:166.652px;line-height:0px;font-family:'Space Mono';-inkscape-font-specification:'Space Mono, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;white-space:pre;inline-size:1722.6;display:inline;fill:url(#swatch10);stroke:none;stroke-width:18.6053;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:6.5;stroke-dasharray:none;paint-order:normal"
+         x="569.04291"
+         y="29.534126"
+         id="text133"
+         transform="translate(396.80409,192.59178)"><tspan
+           x="569.04291"
+           y="29.534126"
+           id="tspan152">Games</tspan></text>
+    </g>
+    <g
+       inkscape:groupmode="layer"
+       id="g134"
+       inkscape:label="PFP">
+      <rect
+         style="font-variation-settings:'wght' 400;fill:url(#swatch5);stroke:none;stroke-width:7.84228;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:6.5;stroke-dasharray:none;paint-order:normal"
+         id="rect133"
+         width="398.09442"
+         height="356.95605"
+         x="268.30002"
+         y="337.34375" />
+      <ellipse
+         style="fill:url(#linearGradient135);stroke:none;stroke-width:4.99002;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:6.5;stroke-dasharray:none;paint-order:normal"
+         id="ellipse133"
          cx="467.3472"
          cy="515.82178"
          rx="172.58887"

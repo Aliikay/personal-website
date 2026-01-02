@@ -1,5 +1,5 @@
 +++
-title = "Games I've made"
+title = "Games I've Made"
 sort_by = "date"
 template = "games.html"
 page_template = "game-page.html"
