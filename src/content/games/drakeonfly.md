@@ -5,6 +5,9 @@ description = "A rail shooter made in Godot for the Games Den Hibernation Jam 20
 
 [extra]
 thumbnail = "/thumbs/drakeonfly.png"
+
+external_site_name = "Itch"
+external_link = "https://alikay.itch.io/drakeonfly"
 +++
 
 Drakeonfly was made for the Hibernation Jam 2025, put on by the University of Alberta Games Den.
