@@ -1,7 +1,9 @@
-{% extends "two-column-with-nav.html" %} {% block pagetitle %}
+{% extends "two-column-with-nav.html" %} {% block tabtitle %}
+<title>{{ page.title }} - Alikay</title>
+{% endblock tabtitle %} {% block pagetitle %}
 <!--<h1 class="page-title">{{page.title}}</h1>-->
 {% endblock pagetitle %} {% block abovenav %}
-<div class="section-box">
+<div class="section-box center-container">
     <a href="{{ page.extra.external_link }}"
         ><img class="game-page-thumbnail" src="{{ page.extra.thumbnail }}"
     /></a>
@@ -9,13 +11,13 @@
 
 <div class="section-box center-container">
     <p class="center">
-        View on
+        Play on
         <a href="{{ page.extra.external_link }}"
             >{{ page.extra.external_site_name }}</a
         >
     </p>
 </div>
 {% endblock abovenav %} {% block article %}
-<h1>{{ page.title }}</h1>
+<h1 class="game-page-title">{{ page.title }}</h1>
 <p><strong>{{ page.date }}</strong></p>
 {{ page.content | safe }} {% endblock article %}

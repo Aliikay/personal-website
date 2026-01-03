@@ -1,8 +1,10 @@
-{% extends "two-column-with-nav.html" %} {% block pagetitle %}
+{% extends "two-column-with-nav.html" %} {% block tabtitle %}
+<title>Alikay</title>
+{% endblock tabtitle %} {% block pagetitle %}
 <h1 class="page-title">{{ section.title | safe }}</h1>
 {% endblock pagetitle %} {% block abovenav %}
 <div class="section-box pfp center-container">
-    <img class="pfp-image" src="pfp.png" />
+    <img class="pfp-image nearest-filtering" src="frog-halfsize.png" />
 </div>
 {% endblock abovenav %} {% block article %}
 <p>{{ section.content | safe }}</p>

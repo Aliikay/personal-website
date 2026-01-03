@@ -13,7 +13,10 @@ $border-small: 8px;
 $border-smaller: 4px;
 
 /* Paddings */
-$section-padding: 12px;
+$section-padding: 16px;
+
+/* Mobile Layout */
+$mobile-mode-width: 1000px;
 
 /*
 Source - https://stackoverflow.com/a
@@ -78,14 +81,6 @@ body.background {
     animation-duration: 7s;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
-
-    /* Nearest filtering */
-    /* IE, only works on <img> tags */
-    -ms-interpolation-mode: nearest-neighbor;
-    /* Firefox */
-    image-rendering: crisp-edges;
-    /* Chromium + Safari */
-    image-rendering: pixelated;
 }
 
 /* Site-wide text formatting */
@@ -101,11 +96,38 @@ a.no-underline {
     text-decoration-line: none;
 }
 
+/* 2 Column Layout row container */
+div.main-row-container {
+    display: flex;
+}
+
+@media (min-width: $mobile-mode-width) {
+    div.main-row-container {
+        flex-direction: row;
+    }
+}
+
+@media (max-width: $mobile-mode-width) {
+    div.main-row-container {
+        flex-direction: column;
+    }
+}
+
+.nearest-filtering {
+    /* Nearest filtering */
+    /* IE, only works on <img> tags */
+    -ms-interpolation-mode: nearest-neighbor;
+    /* Firefox */
+    image-rendering: crisp-edges;
+    /* Chromium + Safari */
+    image-rendering: pixelated;
+}
+
 /* Landing page title */
 h1.page-title {
     margin-top: 0.3em;
     margin-bottom: 0.1em;
-    font-size: 8rem;
+    font-size: min(8rem, 16vw);
     text-align: center;
     font-weight: bold;
 }
@@ -142,7 +164,7 @@ div.article {
 
 /* Profile picture on the landing page */
 img.pfp-image {
-    width: 288px;
+    width: 305px;
     height: 305px;
 }
 
@@ -157,6 +179,13 @@ div.navigation {
 div.navigation-button-container {
 }
 
+@media (max-width: $mobile-mode-width) {
+    div.navigation-button-container {
+        display: flex;
+        flex-direction: row;
+    }
+}
+
 /* Row container for navigation button */
 div.navigation-button-row {
     width: auto;
@@ -165,6 +194,12 @@ div.navigation-button-row {
     margin: 8px;
     border-radius: $border-smaller;
     transition: background-color 0.25s;
+}
+
+@media (max-width: $mobile-mode-width) {
+    div.navigation-button-row {
+        flex: 1;
+    }
 }
 
 /* Alternate between the three accent colors for navigation buttons */
@@ -229,7 +264,15 @@ img.game-card-thumbnail {
 
 /* Thumbnail in the top left */
 img.game-page-thumbnail {
-    height: 305px;
-    width: auto;
+    height: fill;
+    width: fill;
+    max-height: 305px;
+    max-width: 305px;
     border-radius: $border-small;
+}
+
+/* Game's title in the article text */
+%headings.game-page-title {
+    font-weight: bold;
+    font-size: 1.5rem;
 }
