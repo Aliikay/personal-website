@@ -27,6 +27,7 @@
           environment-packages = with pkgs; [
             zola # static site generator
             aspell # spellchecker
+            imagemagick # thumbnail resizing
           ];
         in
         {

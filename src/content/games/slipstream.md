@@ -4,7 +4,7 @@ date = 2025-01-29
 description = "A rail shooter made in Godot for the Games Den Hibernation Jam 2025."
 
 [extra]
-thumbnail = "/thumbs/slipstream.png"
+thumbnail = "slipstream.png"
 
 external_site_name = "Steam"
 external_link = "https://store.steampowered.com/app/3602870/Slipstream/"
