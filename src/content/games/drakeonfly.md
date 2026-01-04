@@ -4,7 +4,7 @@ date = 2025-11-16
 description = "A rail shooter made in Godot for the Games Den Hibernation Jam 2025."
 
 [extra]
-thumbnail = "drakeonfly.png"
+thumbnail = "drakeonfly"
 
 external_site_name = "Itch"
 external_link = "https://alikay.itch.io/drakeonfly"
