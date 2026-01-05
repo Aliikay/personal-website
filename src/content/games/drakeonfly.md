@@ -1,7 +1,7 @@
 +++
 title = "Drakeonfly"
 date = 2025-11-16
-description = "A rail shooter made in Godot for the Games Den Hibernation Jam 2025."
+description = "Take to the skies to defeat an invasion of birds!"
 
 [extra]
 thumbnail = "drakeonfly"

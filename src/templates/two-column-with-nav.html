@@ -2,7 +2,7 @@
 pagetitle %}
 <div class="center-container">
     <div class="main-content-background main-row-container">
-        <div class="column-container">
+        <div class="column-container sidebar">
             {% block abovenav %} {% endblock abovenav %}
             <div class="section-box navigation column-container">
                 <div class="center-container">
@@ -25,8 +25,10 @@ pagetitle %}
                     </div>
 
                     <div class="navigation-button-row">
-                        <a class="navigation-button no-underline" href="/"
-                            >Resources</a
+                        <a
+                            class="navigation-button no-underline"
+                            href="{{ get_url(path='@/music/_index.md') }}"
+                            >Music</a
                         >
                     </div>
                 </div>

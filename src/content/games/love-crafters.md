@@ -1,7 +1,7 @@
 +++
 title = "Love Crafters"
 date = 2023-06-01
-description = "A"
+description = "A virtual pet game where you take care of monsters for the Nintendo DS"
 
 draft = false
 

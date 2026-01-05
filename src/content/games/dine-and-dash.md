@@ -1,7 +1,7 @@
 +++
 title = "Dine & Dash"
 date = 2021-11-07
-description = "A"
+description = "Fight monsters to collect cooking ingredients, then use them to fulfill an order"
 
 draft = false
 

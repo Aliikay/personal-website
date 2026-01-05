@@ -1,0 +1,36 @@
+{% extends "two-column-with-nav.html" %} {% block tabtitle %}
+<title>Music - Alikay</title> {% endblock tabtitle %} {% block pagetitle %}
+<h1 class="page-title">{{ section.title }}</h1>
+{% endblock pagetitle %} {% block abovearticle %}
+<div class="section-box">
+    <p>{{ section.content | safe}}</p>
+</div>
+{% endblock abovearticle %} {% block article %}
+<!-- If you are using pagination, section.pages will be empty.
+       You need to use the paginator object -->
+<div class="content-listing-box-container">
+    {% for music in section.pages %}
+    <div class="content-listing-box">
+        <a
+            class="no-underline row-container center-column-container"
+            href="{{ music.permalink | safe }}"
+        >
+            <img
+                class="content-card-thumbnail"
+                src="/thumbs/128x128/{{ music.extra.thumbnail | safe }}.jpg"
+            />
+            <div class="column-container">
+                <h3>{{ music.title | safe }}</h3>
+                <audio controls>
+                    <source
+                        src="/music/{{ music.extra.music }}.mp3"
+                        type="audio/mpeg"
+                    />
+                    Your browser does not support the audio element.
+                </audio>
+            </div>
+        </a>
+    </div>
+    {% endfor %}
+</div>
+{% endblock article%}

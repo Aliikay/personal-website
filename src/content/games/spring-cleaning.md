@@ -1,7 +1,7 @@
 +++
 title = "Spring Cleaning"
 date = 2024-04-22
-description = "A"
+description = "Play as a dust bunny on your quest to save the burrow from the Earthshaker!"
 
 [extra]
 thumbnail = "spring-cleaning"

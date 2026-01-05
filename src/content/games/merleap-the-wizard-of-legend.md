@@ -1,7 +1,7 @@
 +++
 title = "Merleap - The Wizard of Legend"
 date = 2024-11-03
-description = "A"
+description = "Survive as a magic frog in the post apocalypse!"
 
 [extra]
 thumbnail = "merleap-the-wizard-of-legend"

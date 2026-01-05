@@ -6,7 +6,7 @@
 <div class="section-box center-container">
     <a href="{{ page.extra.external_link }}"
         ><img
-            class="game-page-thumbnail"
+            class="content-page-thumbnail"
             src="/thumbs/512x512/{{ page.extra.thumbnail }}.jpg"
     /></a>
 </div>
@@ -20,6 +20,6 @@
     </p>
 </div>
 {% endblock abovenav %} {% block article %}
-<h1 class="game-page-title">{{ page.title }}</h1>
+<h1 class="content-page-title">{{ page.title }}</h1>
 <p><strong>{{ page.date }}</strong></p>
 {{ page.content | safe }} {% endblock article %}

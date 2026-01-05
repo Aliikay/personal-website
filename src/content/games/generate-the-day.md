@@ -1,7 +1,7 @@
 +++
 title = "Generate The Day"
 date = 2022-11-07
-description = "A"
+description = "Play as a robot trying to restore power to their village"
 
 draft = false
 

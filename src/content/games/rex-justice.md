@@ -1,7 +1,7 @@
 +++
 title = "Rex Justice"
 date = 2024-09-19
-description = "A"
+description = "An over the top action game with independant limb control"
 
 [extra]
 thumbnail = "rex-justice"

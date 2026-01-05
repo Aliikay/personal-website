@@ -1,7 +1,7 @@
 +++
 title = "Cosmurier"
 date = 2023-07-29
-description = "A"
+description = "A package delivery geography game for the Nintendo DS"
 
 draft = false
 

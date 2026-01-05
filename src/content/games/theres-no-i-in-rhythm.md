@@ -1,7 +1,7 @@
 +++
 title = "There's No I In Rhythm"
 date = 2020-11-12
-description = "A"
+description = "Beat enemies to the beat, together!"
 
 draft = false
 

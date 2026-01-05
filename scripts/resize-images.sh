@@ -18,8 +18,13 @@ make_image_folder_if_missing(){
 resize_image(){
     filename=$(basename "$1")
     no_extension_filename=$(echo "$filename" | cut -f 1 -d '.')
-    command="magick ${1} -resize ${2} $THUMBNAIL_DIRECTORY/${2}/$no_extension_filename".jpg
-    echo "$command"
+    command="magick ${1} \
+        -resize ${2} \
+        -background '#1a1a29ff' \
+        -alpha remove \
+        -alpha off \
+        $THUMBNAIL_DIRECTORY/${2}/$no_extension_filename".jpg
+    echo "    Running $command"
     /bin/sh -c "$command"
 }
 export -f resize_image
@@ -35,7 +40,7 @@ do
 
     # Loop through all base images and resize them
     for filename in "$BASE_IMAGES"/*; do
-        echo "$filename"
+        echo "Converting $filename"
         resize_image "$filename" "$resolution_string"
     done
 done

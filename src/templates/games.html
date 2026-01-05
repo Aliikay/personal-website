@@ -8,15 +8,15 @@
 {% endblock abovearticle %} {% block article %}
 <!-- If you are using pagination, section.pages will be empty.
        You need to use the paginator object -->
-<div class="game-box-container">
+<div class="content-listing-box-container">
     {% for game in section.pages %}
-    <div class="game-box">
+    <div class="content-listing-box">
         <a
             class="no-underline row-container center-column-container"
             href="{{ game.permalink | safe }}"
         >
             <img
-                class="game-card-thumbnail"
+                class="content-card-thumbnail"
                 src="/thumbs/128x128/{{ game.extra.thumbnail | safe }}.jpg"
             />
             <div class="column-container">

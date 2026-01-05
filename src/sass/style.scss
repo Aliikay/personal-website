@@ -105,6 +105,13 @@ div.main-row-container {
     div.main-row-container {
         flex-direction: row;
     }
+
+    /* Make the left column follow the scroll in desktop mode */
+    div.sidebar {
+        position: sticky;
+        top: 0;
+        height: fit-content;
+    }
 }
 
 @media (max-width: $mobile-mode-width) {
@@ -226,33 +233,33 @@ a.navigation-button {
     padding-bottom: 8px;
 }
 
-/* ===== Games Page Styling ===== */
-div.game-box-container {
+/* ===== Content Listing Page Styling ===== */
+div.content-listing-box-container {
 }
 
-div.game-box {
+div.content-listing-box {
     background-color: $base-navy;
     transition: background-color 0.25s;
 
     border-radius: $border-small;
 }
-div.game-box:not(:first-child) {
+div.content-listing-box:not(:first-child) {
     margin-top: $section-padding;
 }
 
 /* Alternating color on hover definitions */
-div.game-box:nth-child(3n + 1):hover {
+div.content-listing-box:nth-child(3n + 1):hover {
     background-color: $accent-purple;
 }
-div.game-box:nth-child(3n - 1):hover {
+div.content-listing-box:nth-child(3n - 1):hover {
     background-color: $accent-red;
 }
-div.game-box:nth-child(3n):hover {
+div.content-listing-box:nth-child(3n):hover {
     background-color: $accent-brown;
 }
 
 /* Thumbnail for the games in the games list page */
-img.game-card-thumbnail {
+img.content-card-thumbnail {
     width: 128px;
     height: 128px;
 
@@ -260,10 +267,10 @@ img.game-card-thumbnail {
     border-radius: $border-small;
 }
 
-/* ===== Game Specific Page ===== */
+/* ===== Content Specific Page ===== */
 
 /* Thumbnail in the top left */
-img.game-page-thumbnail {
+img.content-page-thumbnail {
     height: fill;
     width: fill;
     max-height: 305px;
@@ -271,8 +278,8 @@ img.game-page-thumbnail {
     border-radius: $border-small;
 }
 
-/* Game's title in the article text */
-%headings.game-page-title {
+/* Content's title in the article text */
+%headings.content-page-title {
     font-weight: bold;
     font-size: 1.5rem;
 }

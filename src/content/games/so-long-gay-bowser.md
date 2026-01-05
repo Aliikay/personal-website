@@ -1,7 +1,7 @@
 +++
 title = "So Long Gay Bowser"
 date = 2025-02-28
-description = "A"
+description = "A narrative Romhack for Super Mario 64"
 
 draft = false
 

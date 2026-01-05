@@ -1,7 +1,7 @@
 +++
 title = "Pilgrimage"
 date = 2024-01-21
-description = "A"
+description = "Play as a contract photographer as you explore the island to find what your clients want"
 
 draft = false
 
