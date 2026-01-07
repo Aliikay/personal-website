@@ -15,6 +15,8 @@ make_image_folder_if_missing(){
     fi
 }
 
+# Yes, this has a command injection vulnerability
+# It's only meant to be run on a dev machine, dont let this function be public facing
 resize_image(){
     filename=$(basename "$1")
     no_extension_filename=$(echo "$filename" | cut -f 1 -d '.')

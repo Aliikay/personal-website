@@ -25,7 +25,7 @@ brew install zola aspell imagemagick
 ```
 
 ## Other Systems
-The only dependency to build this project is [Zola](https://www.getzola.org/), which can be downloaded from [their installation guide](https://www.getzola.org/documentation/getting-started/installation/). To run the spellchecking script, you must also have ```aspell``` installed, which is probably in your distro's package manager. Simmilarily, to run the image resizing script you need to have imagemagick installed.
+The only dependency to build this project is [Zola](https://www.getzola.org/), which can be downloaded from [their installation guide](https://www.getzola.org/documentation/getting-started/installation/). To run the spellchecking script, you must also have ```aspell``` installed, which is probably in your distro's package manager. Similarly, to run the image resizing script you need to have imagemagick installed.
 
 # Credits
 The colour palette for this website is original, but heavily inspired by the excellent [Nyx8 Palette](https://lospec.com/palette-list/nyx8)
