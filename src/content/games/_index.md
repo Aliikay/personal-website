@@ -5,4 +5,4 @@ template = "games.html"
 page_template = "game-page.html"
 +++
 
-This is a list of games I've worked on over time.
+These are all games I've made (or contributed to), most of them are free to play on my [itch page](https://alikay.itch.io).
