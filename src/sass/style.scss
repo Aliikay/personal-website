@@ -162,6 +162,18 @@ div.section-box {
     border-radius: $border-small;
 }
 
+/* Expand the margins on mobile for more screen real-estate */
+@media (max-width: $mobile-mode-width) {
+    div.main-content-background {
+        width: 90%;
+        height: 90%;
+    }
+
+    div.section-box {
+        margin: 0.3em;
+    }
+}
+
 /* Section titles */
 %headings.section-title {
     font-weight: bold;
@@ -182,14 +194,19 @@ img.pfp-image {
 /* ===== Navigation Section ===== */
 
 /* Navigation container */
-div.navigation {
-    min-width: 300px;
-}
 
 /* Navigation panel rows */
 div.navigation-button-container {
 }
 
+/* Make nav region take up space on desktop */
+@media (min-width: $mobile-mode-width) {
+    div.navigation {
+        min-width: 20em;
+    }
+}
+
+/* Make buttons side by side on mobile */
 @media (max-width: $mobile-mode-width) {
     div.navigation-button-container {
         display: flex;
@@ -262,24 +279,63 @@ div.content-listing-box:nth-child(3n):hover {
     background-color: $accent-brown;
 }
 
+.content-listing-subcontainer {
+}
+
+/* Make thumbnail images inline on desktop */
+@media (min-width: $mobile-mode-width) {
+    .content-listing-subcontainer {
+        display: flex;
+        flex-direction: row;
+    }
+}
+
+/* Make thumbnail images appear above test on mobile */
+@media (max-width: $mobile-mode-width) {
+    .content-listing-subcontainer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 12px;
+    }
+}
+
 /* Thumbnail for the games in the games list page */
 img.content-card-thumbnail {
     width: 128px;
     height: 128px;
-
-    margin: 12px;
     border-radius: $border-small;
+}
+
+@media (min-width: $mobile-mode-width) {
+    img.content-card-thumbnail {
+        margin: 12px;
+    }
+}
+
+/* Audio players for music page */
+audio.music-audio-player {
+    width: 100%;
 }
 
 /* ===== Content Specific Page ===== */
 
 /* Thumbnail in the top left */
 img.content-page-thumbnail {
-    height: fill;
-    width: fill;
+    display: block;
     max-height: 305px;
     max-width: 305px;
+    width: 100%;
+    height: 100%;
     border-radius: $border-small;
+}
+
+@media (max-width: $mobile-mode-width) {
+    img.content-page-thumbnail {
+        /* width: auto; */
+        /* height: auto; */
+    }
 }
 
 /* Content's title in the article text */

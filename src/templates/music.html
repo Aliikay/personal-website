@@ -12,7 +12,7 @@
     {% for music in section.pages %}
     <div class="content-listing-box">
         <a
-            class="no-underline row-container center-column-container"
+            class="no-underline content-listing-subcontainer"
             href="{{ music.permalink | safe }}"
         >
             <img
@@ -21,7 +21,7 @@
             />
             <div class="column-container">
                 <h3>{{ music.title | safe }}</h3>
-                <audio controls>
+                <audio controls class="music-audio-player">
                     <source
                         src="/music/{{ music.extra.music }}.mp3"
                         type="audio/mpeg"
