@@ -45,6 +45,14 @@ h6 {
     align-items: center;
 }
 
+@media (max-width: $mobile-mode-width) {
+    .center-if-mobile {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
 .row-container {
     display: flex;
     flex-direction: row;
@@ -57,6 +65,7 @@ h6 {
 
 .expand-to-fill {
     flex-grow: 1;
+    width: -webkit-fill-available;
 }
 
 /* ===== Specific Styles ===== */
@@ -264,6 +273,8 @@ div.content-listing-box {
     background-color: $base-navy;
     transition: background-color 0.25s;
 
+    padding: 8px;
+
     border-radius: $border-small;
 }
 div.content-listing-box:not(:first-child) {
@@ -319,6 +330,7 @@ img.content-card-thumbnail {
 /* Audio players for music page */
 audio.music-audio-player {
     width: 100%;
+    max-width: 30em;
 }
 
 /* ===== Content Specific Page ===== */
