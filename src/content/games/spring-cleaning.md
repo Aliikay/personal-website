@@ -8,6 +8,7 @@ thumbnail = "spring-cleaning"
 
 external_site_name = "Itch"
 external_link = "https://house-hippos.itch.io/spring-cleaning"
+external_icon = "itch"
 +++
 In Spring Cleaning you play as a literal "dust bunny" on a quest to save your burrow from an evil vacuum cleaner. You have to platform, collect dust to grow and shrink, and dash to progress through the three levels to stop the "Earthshaker"!
 

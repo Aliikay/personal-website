@@ -1,25 +1,33 @@
 {% extends "two-column-with-nav.html" %} {% block tabtitle %}
 <title>{{ page.title }} - Alikay</title>
 {% endblock tabtitle %} {% block pagetitle %}
-<!--<h1 class="page-title">{{page.title}}</h1>-->
+<h1 class="page-title">{{page.title}}</h1>
 {% endblock pagetitle %} {% block abovenav %}
 <div class="section-box center-container">
-    <a href="{{ page.extra.external_link }}"
+    <a href="{{ page.extra.external_link | safe }}"
         ><img
             class="content-page-thumbnail"
-            src="/thumbs/512x512/{{ page.extra.thumbnail }}.jpg"
+            src="/thumbs/512x512/{{ page.extra.thumbnail | safe }}.jpg"
     /></a>
 </div>
+{% endblock abovenav %} {% block belownav %}
+<a
+    href="{{ page.extra.external_link | safe }}"
+    class="no-underline external-link-section"
+>
+    <div class="section-box center-container external-link-section-container">
+        <img
+            class="content-page-external-icon"
+            src="/icons/{{ page.extra.external_icon | safe }}.svg"
+        />
+        <p class="center">Play on {{ page.extra.external_site_name }}</p>
+    </div>
+</a>
 
 <div class="section-box center-container">
-    <p class="center">
-        Play on
-        <a href="{{ page.extra.external_link }}"
-            >{{ page.extra.external_site_name }}</a
-        >
-    </p>
+    <p>Created on <strong>{{ page.date }}</strong></p>
 </div>
-{% endblock abovenav %} {% block article %}
-<h1 class="content-page-title">{{ page.title }}</h1>
-<p><strong>{{ page.date }}</strong></p>
+{% endblock belownav %} {% block article %}
+<!--<h1 class="content-page-title">{{ page.title }}</h1>-->
+<!--<p><strong>{{ page.date }}</strong></p>-->
 {{ page.content | safe }} {% endblock article %}

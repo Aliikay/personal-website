@@ -10,4 +10,5 @@ thumbnail = "theres-no-i-in-rhythm"
 
 external_site_name = "Itch"
 external_link = "https://applepiesleth.itch.io/theres-no-i-in-rhythm"
+external_icon = "itch"
 +++

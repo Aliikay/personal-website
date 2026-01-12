@@ -10,6 +10,7 @@ thumbnail = "cosmurier"
 
 external_site_name = "Itch"
 external_link = "https://alikay.itch.io/cosmurier"
+external_icon = "itch"
 +++
 Cosmurier was made in 48 hours for the games den wildcard game jam.
 

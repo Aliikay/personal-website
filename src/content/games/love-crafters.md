@@ -10,6 +10,7 @@ thumbnail = "love-crafters"
 
 external_site_name = "Itch"
 external_link = "https://alikay.itch.io/love-crafters"
+external_icon = "itch"
 +++
 Love Crafters is a game made for the Nintendo DS. It was made for the Games Den Anthology Jam, which took place over 3 months from March 2023 to May 2023.
 

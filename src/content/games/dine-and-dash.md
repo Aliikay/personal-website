@@ -10,6 +10,7 @@ thumbnail = "dine-and-dash"
 
 external_site_name = "Itch"
 external_link = "https://alikay.itch.io/dine-dash"
+external_icon = "itch"
 +++
 This was one of my first games made for a game jam, and was submitted to the Games Den Quick jam in 2021. You play as a chef, but instead of a pantry you have a dungeon. You explore the procedurally generated dungeon to slay enemy monsters and collect ingredients to make into food orders for the restaurant.
 

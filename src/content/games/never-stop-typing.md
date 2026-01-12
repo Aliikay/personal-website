@@ -8,6 +8,7 @@ thumbnail = "never-stop-typing"
 
 external_site_name = "Itch"
 external_link = "https://alikay.itch.io/never-stop-typing"
+external_icon = "itch"
 +++
 Never Stop Typing is a game where you work for Company LTD as a word farmer. Every 5 seconds, you must submit a new word, forever, and if you go over time you'll be fired. 
 

@@ -10,6 +10,7 @@ thumbnail = "night-rail"
 
 external_site_name = "Itch"
 external_link = "https://jesuisnuit.itch.io/night-rail"
+external_icon = "itch"
 +++
 For this game jam I was a composer, and I didn't contribute heavily to the code of the project. You can listen to the song I composed [here](@/music/night-rail.md). That being said, I still did add one feature of my own, being the dynamic music present in the game. 
 

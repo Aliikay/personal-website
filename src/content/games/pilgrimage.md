@@ -10,6 +10,7 @@ thumbnail = "pilgrimage"
 
 external_site_name = "Itch"
 external_link = "https://alikay.itch.io/pilgrimage"
+external_icon = "itch"
 +++
 Pilgrimage is a game where you play as a contract photographer exploring an island to take pictures of points of interest for clients. You are scored based on if your picture met the clients needs or not, and the game ends once you've taken all the pictures and gives you a final score. The game was made for the 2023 games den anthology game jam. This was my first game made in Godot, and I made it as a way to learn the engine after the Unity Runtime fee announcement in late 2023.
 

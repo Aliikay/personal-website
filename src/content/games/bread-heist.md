@@ -10,6 +10,7 @@ thumbnail = "bread-heist"
  
 external_site_name = "GitHub"
 external_link = "https://juliepilz.github.io/StudioScrum/Releases/Gold/BreadHeist/Gold/index.html"
+external_icon = "itch"
 +++
 Bread Heist is a stealth rhythm game where you sneak into a corporation to steal their dough, and engage in DDR like dance battles with various enemies. The game was made as a capstone project for the CMPUT 250 course at the University of Alberta, as a part of the game Dev Certificate program. I made it with 5 peers, where I worked as a programmer focusing on the rhythm battles and the enemy guards.
 

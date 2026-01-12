@@ -8,6 +8,7 @@ thumbnail = "rex-justice"
 
 external_site_name = "Itch"
 external_link = "https://alikay.itch.io/rexjusticesavestheworld"
+external_icon = "itch"
 +++
 In this game you play as Rex Justice, on a mission to stop the world from ending.
 

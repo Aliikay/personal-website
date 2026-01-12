@@ -8,6 +8,7 @@ thumbnail = "merleap-the-wizard-of-legend"
 
 external_site_name = "Itch"
 external_link = "https://alikay.itch.io/the-wizard-of-legend"
+external_icon = "itch"
 +++
 This was a game jam game made in 48 hours for the Games Den Quickening game jam. It's a bullet heaven where you play as the last frog with magic, in a post-apocalypse where the world has been taken over by machines.
 

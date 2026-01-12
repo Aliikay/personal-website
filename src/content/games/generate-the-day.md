@@ -10,6 +10,7 @@ thumbnail = "generate-the-day"
 
 external_site_name = "Itch"
 external_link = "https://alikay.itch.io/generate-the-day"
+external_icon = "itch"
 +++
 Generate the Day is a game where you play as a robot, in a village where all light has gone out. Your goal is to collect all the generator parts, and bring them back to the generator to restore power to the village. This game was made for the Games Den Quicker game jam, and was made in 48 hours.
 
