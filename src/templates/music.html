@@ -21,7 +21,7 @@
             />
             <div class="column-container">
                 <h3>{{ music.title | safe }}</h3>
-                <audio controls class="music-audio-player">
+                <audio controls class="music-audio-player" preload="metadata">
                     <source
                         src="/music/{{ music.extra.music }}.mp3"
                         type="audio/mpeg"

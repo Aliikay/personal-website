@@ -20,4 +20,4 @@ Like some of my other projects, I also intentionally lowered the internal resolu
 
 For the game's music, I used public domain and CC0 music from [the mod archive](https://modarchive.org), which is an incredible resource for sequenced music that I use often in my projects. This project was unique however, because I incorporated [this Godot extension](https://godotengine.org/asset-library/asset/841) which allows direct playback of common tracker formats instead of converting it first to a traditional audio file. This means that I was able to gain the size on disk savings from this format, which is how the game is able to be only 70MB on disk.
 
-I also used prerendered video wherever possible, instead of in-engine cutscenes. This sped up the development time for the game since all cutscenes just have to play a video instead of running any logic themselves.
+I also used pre-rendered video wherever possible, instead of in-engine cutscenes. This sped up the development time for the game since all cutscenes just have to play a video instead of running any logic themselves.
