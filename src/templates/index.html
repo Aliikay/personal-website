@@ -4,7 +4,10 @@
 <h1 class="page-title">{{ section.title | safe }}</h1>
 {% endblock pagetitle %} {% block abovenav %}
 <div class="section-box pfp center-container">
-    <img class="pfp-image nearest-filtering" src="frog-halfsize.png" />
+    <img
+        class="pfp-image nearest-filtering"
+        src='{{ get_url(path="frog-halfsize.png") }}'
+    />
 </div>
 {% endblock abovenav %} {% block article %}
 <p>{{ section.content | safe }}</p>

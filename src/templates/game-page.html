@@ -7,7 +7,7 @@
     <a href="{{ page.extra.external_link | safe }}"
         ><img
             class="content-page-thumbnail"
-            src="/thumbs/512x512/{{ page.extra.thumbnail | safe }}.jpg"
+            src='{{ get_url(path="/thumbs/512x512/{{ page.extra.thumbnail | safe }}.jpg") }}'
     /></a>
 </div>
 {% endblock abovenav %} {% block belownav %}
@@ -18,7 +18,7 @@
     <div class="section-box center-container external-link-section-container">
         <img
             class="content-page-external-icon"
-            src="/icons/{{ page.extra.external_icon | safe }}.svg"
+            src='{{ get_url(path="/icons/{{ page.extra.external_icon | safe }}.svg") }}'
         />
         <p class="center">Play on {{ page.extra.external_site_name }}</p>
     </div>

@@ -17,13 +17,13 @@
         >
             <img
                 class="content-card-thumbnail"
-                src="/thumbs/128x128/{{ music.extra.thumbnail | safe }}.jpg"
+                src='{{ get_url(path="/thumbs/128x128/" ~ music.extra.thumbnail ~ ".jpg") }}'
             />
             <div class="column-container expand-to-fill center-if-mobile">
                 <h3>{{ music.title | safe }}</h3>
                 <audio controls class="music-audio-player" preload="metadata">
                     <source
-                        src="/music/{{ music.extra.music }}.mp3"
+                        src='{{ get_url(path="/music/" ~ music.extra.music ~ ".mp3") }}'
                         type="audio/mpeg"
                     />
                     Your browser does not support the audio element.

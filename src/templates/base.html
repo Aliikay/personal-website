@@ -15,10 +15,14 @@
         />
 
         <!-- Styling -->
-        <link rel="stylesheet" href="/style.css" />
+        <link rel="stylesheet" href='{{ get_url(path="/style.css") }}' />
 
         <!-- Favicon -->
-        <link rel="icon" type="image/x-icon" href="/frog-halfsize.png" />
+        <link
+            rel="icon"
+            type="image/x-icon"
+            href='{{ get_url(path="/frog-halfsize.png") }}'
+        />
     </head>
 
     <body class="background nearest-filtering">

@@ -17,7 +17,8 @@
         >
             <img
                 class="content-card-thumbnail"
-                src="/thumbs/128x128/{{ game.extra.thumbnail | safe }}.jpg"
+                src='{{ get_url(path="/thumbs/128x128/" ~ game.extra.thumbnail ~
+                ".jpg") }}'
             />
             <div class="column-container">
                 <h3>{{ game.title | safe }}</h3>

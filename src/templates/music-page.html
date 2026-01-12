@@ -6,7 +6,7 @@
 <div class="section-box center-container">
     <!--<a href="/">--><img
         class="content-page-thumbnail"
-        src="/thumbs/512x512/{{ page.extra.thumbnail }}.jpg"
+        src='{{ get_url(path="/thumbs/512x512/" ~ page.extra.thumbnail ~ ".jpg") }}'
     />
     <!--</a>-->
 </div>
@@ -14,7 +14,10 @@
 <div class="section-box center-container">
     <p class="center">
         <audio controls>
-            <source src="/music/{{ page.extra.music }}.mp3" type="audio/mpeg" />
+            <source
+                src='{{ get_url(path="/music/" ~ page.extra.music ~ ".mp3") }}'
+                type="audio/mpeg"
+            />
             Your browser does not support the audio element.
         </audio>
     </p>
