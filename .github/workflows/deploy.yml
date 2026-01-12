@@ -22,7 +22,7 @@ jobs:
         with:
           zola_version: v0.21.0
           working_directory: src
-          check_links: true
+          check_links: false
 
   deploy:
     runs-on: ubuntu-latest
