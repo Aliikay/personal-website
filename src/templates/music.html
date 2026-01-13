@@ -11,25 +11,25 @@
 <div class="content-listing-box-container">
     {% for music in section.pages %}
     <div class="content-listing-box">
-        <a
+        <!--<a
             class="no-underline content-listing-subcontainer"
             href="{{ music.permalink | safe }}"
-        >
-            <img
-                class="content-card-thumbnail"
-                src='{{ get_url(path="/thumbs/128x128/" ~ music.extra.thumbnail ~ ".jpg") }}'
-            />
-            <div class="column-container expand-to-fill center-if-mobile">
-                <h3>{{ music.title | safe }}</h3>
-                <audio controls class="music-audio-player" preload="metadata">
-                    <source
-                        src='{{ get_url(path="/music/" ~ music.extra.music ~ ".mp3") }}'
-                        type="audio/mpeg"
-                    />
-                    Your browser does not support the audio element.
-                </audio>
-            </div>
-        </a>
+        >-->
+        <img
+            class="content-card-thumbnail"
+            src='{{ get_url(path="/thumbs/128x128/" ~ music.extra.thumbnail ~ ".jpg") }}'
+        />
+        <div class="column-container expand-to-fill center-if-mobile">
+            <h3>{{ music.title | safe }}</h3>
+            <audio controls class="music-audio-player" preload="metadata">
+                <source
+                    src='{{ get_url(path="/music/" ~ music.extra.music ~ ".mp3") }}'
+                    type="audio/mpeg"
+                />
+                Your browser does not support the audio element.
+            </audio>
+        </div>
+        <!--</a>-->
     </div>
     {% endfor %}
 </div>
