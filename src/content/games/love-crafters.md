@@ -21,6 +21,6 @@ This game was made with a combination of [NFLib](https://github.com/knightfox75/
 
 Despite using C libraries, I opted to write this game in C++ to allow for the use of inheritance to represent game scenes. Each scene inherits from a generic scene class, which has its update and draw methods called once per frame. This was made to emulate the semantics of higher level game engines and sped up development.
 
-Since these libraries require specific formats for assets, I wrote a script that I run as part of the build process that converts all of the assets in the game to the required formats. This lets me place conventional assets in folders and still build the game with the specialized formats required by each library.
+Since these libraries require specific formats for assets, I wrote a script that I run as part of the build process that converts all the assets in the game to the required formats. This lets me place conventional assets in folders and still build the game with the specialized formats required by each library.
 
 The music in the game is all from [the Mod Archive](https://modarchive.org), which hosts a collection of music made with tracker software, with licensing information for each song. This was a required resource for this project, since the Nintendo DS has severe restrictions on playing streamed audio, bit I ended up enjoying the music collection and went on to use it in other projects in the future where it was not required.

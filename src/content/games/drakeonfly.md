@@ -10,7 +10,6 @@ external_site_name = "Itch"
 external_link = "https://alikay.itch.io/drakeonfly"
 external_icon = "itch"
 +++
-
 Drakeonfly was made for the Hibernation Jam 2025, put on by the University of Alberta Games Den.
 
 For this jam I wanted to try and push myself to make a rail shooter since I had a full week, and I think it paid off since this is the jam game I'm the most proud of.
