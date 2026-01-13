@@ -3,7 +3,7 @@ title = "Community Garden"
 date = 2023-02-05
 description = "Plant some plants in an online, shared garden"
 
-draft = false
+draft = true
 
 [extra]
 thumbnail = "community-garden"
