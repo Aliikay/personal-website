@@ -23,6 +23,7 @@ jobs:
           zola_version: v0.21.0
           working_directory: src
           check_links: false
+          build_flags: --minify
 
   deploy:
     runs-on: ubuntu-latest
