@@ -10,7 +10,7 @@ thumbnail = "so-long-gay-bowser"
 
 external_site_name = "romhacking.com"
 external_link = "https://romhacking.com/hack/so-long--gay-bowser"
-external_icon = "itch"
+external_icon = "rhdc"
 +++
 So Long Gay Bowser is a narrative romhack for Super Mario 64, where the player has to navigate three simple platforming levels that take place in Mario's memories of time he spent with Bowser, before Bowser has to move to another country.
 
