@@ -9,6 +9,8 @@ thumbnail = "drakeonfly"
 external_site_name = "Itch"
 external_link = "https://alikay.itch.io/drakeonfly"
 external_icon = "itch"
+
+video = "drakeonfly"
 +++
 Drakeonfly was made for the Hibernation Jam 2025, put on by the University of Alberta Games Den.
 

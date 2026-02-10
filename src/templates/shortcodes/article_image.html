@@ -1,0 +1,16 @@
+{% set image = resize_image(path=page.colocated_path ~ path, width=width,
+height=height, op=op, format="jpg") %}
+
+<div class="center-container">
+    <div class="content-page-image-container">
+        <div class="center-container">
+            <img class="article-inline-image" src="{{ image.url }}" />
+        </div>
+        <p
+            class="article-inline-image-description"
+            style="max-width: '{{ width }}px';"
+        >
+            {{ description }}
+        </p>
+    </div>
+</div>

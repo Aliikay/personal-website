@@ -11,6 +11,7 @@ $accent-high: #fad89cff;
 /* Border radii */
 $border-small: 8px;
 $border-smaller: 4px;
+$border-medium: 16px;
 
 /* Paddings */
 $section-padding: 16px;
@@ -377,4 +378,16 @@ div.external-link-section-container:hover {
 %headings.content-page-title {
     font-weight: bold;
     font-size: 1.5rem;
+}
+
+div.content-page-image-container {
+    background-color: $base-navy;
+    border-radius: $border-medium;
+    padding: 12px;
+}
+
+img.article-inline-image {
+}
+
+p.article-inline-image-description {
 }
