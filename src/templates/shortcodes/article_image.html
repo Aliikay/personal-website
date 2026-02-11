@@ -1,16 +1,18 @@
-{% set image = resize_image(path=page.colocated_path ~ path, width=width,
+{% set image = resize_image(path=page.colocated_path ~ name, width=width,
 height=height, op=op, format="jpg") %}
 
-<div class="center-container">
+<div class="content-page-section-container center-container">
     <div class="content-page-image-container">
-        <div class="center-container">
-            <img class="article-inline-image" src="{{ image.url }}" />
-        </div>
-        <p
-            class="article-inline-image-description"
-            style="max-width: '{{ width }}px';"
+        <a
+            href="{{ get_url(path=page.colocated_path ~ name) }}"
+            target="_blank"
         >
-            {{ description }}
-        </p>
+            <img class="article-inline-image" src="{{ image.url }}" />
+        </a>
+        <p class="article-inline-image-description">{{ description }}</p>
+
+        <!--<div class="article-inline-image-description-container">-->
+
+        <!--</div>-->
     </div>
 </div>

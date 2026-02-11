@@ -380,14 +380,33 @@ div.external-link-section-container:hover {
     font-size: 1.5rem;
 }
 
+div.content-page-section-container {
+    display: flex;
+    max-width: 100%;
+}
+
 div.content-page-image-container {
     background-color: $base-navy;
     border-radius: $border-medium;
     padding: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* max-width: min-content; */
 }
 
 img.article-inline-image {
+    object-fit: cover;
+    height: auto;
+    max-width: 100%;
+    border-radius: $border-small;
 }
 
 p.article-inline-image-description {
+    max-width: 100%;
+}
+
+video.game-page-video {
+    max-width: 100%;
 }

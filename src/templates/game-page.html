@@ -1,14 +1,8 @@
-{% extends "two-column-with-nav.html" %}
-
-{% block tabtitle %}
+{% extends "two-column-with-nav.html" %} {% block tabtitle %}
 <title>{{ page.title }} - Alikay</title>
-{% endblock tabtitle %}
-
-{% block pagetitle %}
+{% endblock tabtitle %} {% block pagetitle %}
 <h1 class="page-title">{{page.title}}</h1>
-{% endblock pagetitle %}
-
-{% block abovenav %}
+{% endblock pagetitle %} {% block abovenav %}
 <div class="section-box center-container">
     <a href="{{ page.extra.external_link | safe }}"
         ><img
@@ -16,9 +10,7 @@
             src='{{ get_url(path="/thumbs/512x512/" ~ page.extra.thumbnail ~ ".jpg") }}'
     /></a>
 </div>
-{% endblock abovenav %}
-
-{% block belownav %}
+{% endblock abovenav %} {% block belownav %}
 <a
     href="{{ page.extra.external_link | safe }}"
     class="no-underline external-link-section"
@@ -38,19 +30,25 @@
 {% endblock belownav %}
 
 <!-- Video Player Section -->
-{% block abovearticle %}
-{% if page.extra.video %}
+{% block abovearticle %} {% if page.extra.video %}
 <div class="section-box center-container">
-    <video width="640" height="360" controls autoplay muted loop>
-     <source src='{{ get_url(path="/videos/" ~ page.extra.video ~ ".webm") }}' type="video/webm">
-   Your browser does not support the video tag.
-   </video>
+    <video
+        width="640"
+        height="360"
+        class="game-page-video"
+        controls
+        autoplay
+        muted
+        loop
+    >
+        <source
+            src='{{ get_url(path=page.colocated_path ~ page.extra.video ~ ".webm") }}'
+            type="video/webm"
+        />
+        Your browser does not support the video tag.
+    </video>
 </div>
-{% endif %}
-{% endblock abovearticle %}
-
-{% block article %}
+{% endif %} {% endblock abovearticle %} {% block article %}
 <!--<h1 class="content-page-title">{{ page.title }}</h1>-->
 <!--<p><strong>{{ page.date }}</strong></p>-->
-{{ page.content | safe }}
-{% endblock article %}
+{{ page.content | safe }} {% endblock article %}

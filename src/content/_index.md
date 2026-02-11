@@ -2,7 +2,7 @@
 title = "Welcome!"
 +++
 # About Me
-Hi there! I'm Alikay, a game developer currently working at at studio I founded with three other peers, [Daisy Chain Games](https://daisychaingames.ca/) on our game [Slipstream](@/games/slipstream.md).
+Hi there! I'm Alikay, a game developer currently working at at studio I founded with three other peers, [Daisy Chain Games](https://daisychaingames.ca/) on our game [Slipstream](@/games/slipstream/index.md).
 
 I'm primarily a game programmer, and I have experience in both Unity and Godot. I've tended to use Godot for personal projects since the Unity runtime fee, but Slipstream uses Unity and I used it before that, so I have experience in both.
 
