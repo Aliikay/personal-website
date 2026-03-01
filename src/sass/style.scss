@@ -412,6 +412,18 @@ video.game-page-video {
 }
 
 /* ===== Loading Screen ===== */
+@keyframes fade-loading-screen {
+    from {
+        background-color: #0b0b11ff;
+    }
+
+    to {
+        background-color: #0b0b1100;
+    }
+}
 div.loading-screen {
-    display: none;
+    pointer-events: none;
+    animation: fade-loading-screen 0.17s forwards;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in-out;
 }
