@@ -25,7 +25,14 @@
 </a>
 
 <div class="section-box center-container">
-    <p>Created on <strong>{{ page.date }}</strong></p>
+    {% if page.extra.exposed_date %}
+    <p>{{ page.extra.exposed_date }}</p>
+    {% else %}
+    <p>
+        Created on
+        <strong>{{ page.date }}</strong>
+    </p>
+    {% endif %}
 </div>
 {% endblock belownav %}
 

@@ -6,7 +6,7 @@ Hi there! I'm Alikay, a game developer currently working at at studio I founded 
 
 I'm primarily a game programmer, and I have experience in both Unity and Godot. I've tended to use Godot for personal projects since the Unity runtime fee, but Slipstream uses Unity and I used it before that, so I have experience in both.
 
-I also work in other creative fields relating to game development. I occasionally do 3D modelling for my personal projects, both to use in 3D games and also to be rendered down into 2D sprites (like what was done for the SNES Donkey Kong Country games) to make up for my lack of traditional 2D art abilities. I also compose music for games, and was the main composer for [Spring Cleaning](@/games/spring-cleaning.md).
+I also work in other creative fields relating to game development. I occasionally do 3D modelling for my personal projects, both to use in 3D games and also to be rendered down into 2D sprites (like what was done for the SNES Donkey Kong Country games) to make up for my lack of traditional 2D art abilities. I also compose music for games, and was the main composer for [Spring Cleaning](@/games/spring-cleaning/index.md).
 
 # About this Site
 This website is a static site developed with [Zola](https://www.getzola.org/) and deployed on GitHub Pages. The source code for this website is available [at this repository](https://github.com/Aliikay/personal-website).
