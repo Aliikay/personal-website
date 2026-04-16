@@ -14,7 +14,7 @@ external_icon = "itch"
 +++
 Pilgrimage is a game where you play as a contract photographer exploring an island to take pictures of points of interest for clients. You are scored based on if your picture met the clients needs or not, and the game ends once you've taken all the pictures and gives you a final score. The game was made for the 2023 games den anthology game jam. This was my first game made in Godot, and I made it as a way to learn the engine after the Unity Runtime fee announcement in late 2023.
 
-This is the game where I feel I first found my own personal artstyle. I had made low poly, low resolution games before (namely [Generate the Day](@/games/generate-the-day.md)) but that game's UI and presentation were substantially different to what I tend to do now. While I was working on [Love Crafters](@/games/love-crafters.md) and [Cosmurier](@/games/cosmurier.md) I was forced into the Nintendo DS's characteristic artstyle by technical limitations, but I found I actually enjoyed its look and have preserved it in my future games.
+This is the game where I feel I first found my own personal artstyle. I had made low poly, low resolution games before (namely [Generate the Day](@/games/generate-the-day.md)) but that game's UI and presentation were substantially different to what I tend to do now. While I was working on [Love Crafters](@/games/love-crafters.md) and [Cosmurier](@/games/cosmurier/index.md) I was forced into the Nintendo DS's characteristic artstyle by technical limitations, but I found I actually enjoyed its look and have preserved it in my future games.
 
 {{ article_image(name="sunset.png", width=1000, height=1000, op="fit", description="A screenshot from the game.")}}
 

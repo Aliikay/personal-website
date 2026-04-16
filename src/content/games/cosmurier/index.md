@@ -11,6 +11,7 @@ thumbnail = "cosmurier"
 external_site_name = "Itch"
 external_link = "https://alikay.itch.io/cosmurier"
 external_icon = "itch"
+video = "gameplay"
 +++
 Cosmurier was made in 48 hours for the games den wildcard game jam.
 
@@ -22,3 +23,5 @@ The locations of the cities are from [this database of world cities](https://www
 Since this is a game build for the Nintendo DS, I used a combination of [NFLib](https://github.com/knightfox75/nds_nflib), which is build on-top of [libnds](https://github.com/devkitPro/libnds), and [NitroEngine](https://github.com/AntonioND/nitro-engine). NFLib was used for initialization and to handle all the 2D assets on the secondary screen, and the primary screen is run with NitroEngine in 3D mode. This setup was the same as the one I used for [Love Crafters](@/games/love-crafters.md), which was my earlier DS game. During gameplay the primary screen is the top screen, but to achieve the pre-rendered title and game over screens as well as the rotating earth on the title and game over screens, I swap the primary to be the bottom screen. To parse the assets into the Nintendo DS format, I used the script I had made for [Love Crafters](@/games/love-crafters.md) to convert various assets into their required formats, with some changes for the new assets.
 
 Since the DS only has 4MB of ram, texture size was a serious limitation. Additionally, this memory is split up into different texture banks, where each texture must only reside in one bank. Because of this, I could not make the earth's surface texture any higher resolution as it takes up a complete texture bank on its own in its current form. The only way to achieve a higher resolution earth texture would have been to split the model up into hemispheres or quarter spheres and texture each one, but I did not have time to do this for the jam.
+
+On [my itch page](https://alikay.itch.io/cosmurier) Cosmurier is playable in the browser. This is due to my use of the [Desmond](https://github.com/js-emulators/desmond) project, which provides an embeddable version of the [DeSmuMe](https://www.desmume.com/) DS emulator.
