@@ -14,7 +14,6 @@ video = "trailer"
 +++
 Slipstream is a top-down racing game where you control a bubble. It's momentum based, so you click to eject a small bubble from yourself and get pushed in the opposite direction with no friction, until you bounce off of a wall. Each time you shoot off a part of yourself you shrink in size, and when you run into bubbles from other people you can absorb them into yourself to grow. We're still working on this game, but it started as a submission to the Global Game Jam 2025. I've been developing this game as part of [Daisy Chain Games](https://daisychaingames.ca/) as a Programmer and UI Designer. 
 
-# Technical Write-up
 As UI designer, one of the main challenges I've faced working on Slipstream is the need for first-class support for both Keyboard + Mouse and Controller navigation. Since our game is playable with one button (shoot) and a single analogue input (aiming), it is playable equally well on either control scheme and we are unable to allow the UI to lean towards the player using one or the other. To accomplish this, I've tended towards using flat lists and modals to display information, since they offer a good tradeoff between allowing UI elements to remain equally sized for mouse users and maintaining a single clear focus point and intuitive navigation neighbours for controller.
 
 {{ article_image(name="settings.png", width=1000, height=1000, op="fit", description="An image of the settings menu in Slipstream, implemented as a modal with a flat list of settings categories.")}}

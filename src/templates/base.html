@@ -28,6 +28,12 @@
             type="image/x-icon"
             href='{{ get_url(path="/frog-halfsize.png") }}'
         />
+
+        <!-- RSS -->
+        {% block rss %}
+          <link rel="alternate" type="application/atom+xml" title="RSS" href="{{ get_url(path="games/atom.xml", trailing_slash=false) }}">
+        {% endblock %}
+
     </head>
 
     <!-- Inline background color to prevent white flashes on page loads -->

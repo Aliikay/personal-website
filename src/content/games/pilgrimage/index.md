@@ -18,7 +18,6 @@ This is the game where I feel I first found my own personal artstyle. I had made
 
 {{ article_image(name="sunset.png", width=1000, height=1000, op="fit", description="A screenshot from the game.")}}
 
-# Technical Write-up
 For this game I opted not to attempt an implementation of image recognition in order to score the player's photographs, since I had limited time to complete it. Instead, each required photograph has a preset position and allowable range of angles the photo may be taken from, and a configurable falloff if the photograph is taken outside these angles. Along with this, I paid special attention to the photograph requests and environment design to ensure there was only one way to take the correct pictures, to not confuse a player why their picture didn't work despite it looking like it should have. 
 
 {{ article_image(name="photograph.png", width=1000, height=1000, op="fit", description="An example of taking a photo where the player must be lined up with a target. Here, the tolerance for being offset from the target position and angle is very small.")}}

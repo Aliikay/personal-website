@@ -19,7 +19,6 @@ We had many puzzle ideas for this game, but due to the strict time constraints w
 
 {{ article_image(name="subtractive.png", width=1000, height=1000, op="fit", description="This subtractive projector is hiding parts of the wall that it's pointed at.")}}
 
-# Technical Write-up
 We used Godot for this project so that we could make use of it's CSG (Constructive Solid Geometry) features for the terrain features. All the terrain is made up of CSG geometry, and the projectors have a pyramid in front of them with a CSG modifier object. We set up objects in the hierarchy to parent terrain to, so that any platform that should be hidden until revealed by a projector can be a CSG object as a child of the Revealable node. All subtractive terrain in the game has to first be revealed by an additive projector, which is why some levels feature unobtainable projectors.
 
 {{ article_image(name="node-tree.png", width=400, height=400, op="fit", description="The node hierarchy used to determine how terrain is revealed.")}}

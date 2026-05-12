@@ -1,6 +1,10 @@
 # The URL the site will be built for
 base_url = "https://www.alikay.xyz"
 
+# The site title and description; used in feeds by default.
+title = "Alikay"
+description = "All of the games I've worked on, with some development insights."
+
 # Whether to automatically compile all Sass files in the sass directory
 compile_sass = true
 
@@ -9,6 +13,13 @@ build_search_index = false
 
 # Hardlink static folder instead of copying to save disk space
 hard_link_static = true
+
+# RSS Feeds
+generate_feeds = true
+feed_filenames = ["atom.xml"]
+
+# Default Author
+author = "Alikay"
 
 [markdown]
 # Whether to do syntax highlighting

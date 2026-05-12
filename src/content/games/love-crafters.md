@@ -16,7 +16,6 @@ Love Crafters is a game made for the Nintendo DS. It was made for the Games Den 
 
 I had planned for the game to feature more content, but I ran out of time near the deadline and so only was able to finish implementing one type of pet and one minigame.
 
-# Technical Write-up
 This game was made with a combination of [NFLib](https://github.com/knightfox75/nds_nflib), which is build on-top of [libnds](https://github.com/devkitPro/libnds), and [NitroEngine](https://github.com/AntonioND/nitro-engine). NFLib was used for initialization and to handle all the 2D assets on the secondary screen, and the primary screen is run with NitroEngine in 3D mode.
 
 Despite using C libraries, I opted to write this game in C++ to allow for the use of inheritance to represent game scenes. Each scene inherits from a generic scene class, which has its update and draw methods called once per frame. This was made to emulate the semantics of higher level game engines and sped up development.

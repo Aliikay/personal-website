@@ -14,7 +14,6 @@ In this game you play as Rex Justice, on a mission to stop the world from ending
 
 Unfortunately I was unable to finish everything I wanted to have included in the game before the deadline, so the intended plot is largely missing. There are also unfinished elements such as the player animations and enemy variety.
 
-# Technical Write-up
 The primary technical hurdle involved in making this game was achieving the intended artstyle I was aiming for, namely trying to emulate the graphical output of the Wii with a lower texture resolution. To do this, I implemented an interlacing shader which is drawn over the game. Every frame, this shader's quad is set to the contents of the previous rendered frame, and only draws either it's even or odd rows of pixels, alternating every frame. I also added a setting to the game to control the intensity of this effect since it is highly opinionated, which adjusts the alpha of the fullscreen quad.
 
 {{ article_image(name="interlacing.png", width=1000, height=1000, op="fit", description="An example screenshot with the interlacing filter at max intensity, where the player is walking toward the camera. Notice how every other simulated scanline is from the frame previous.")}}

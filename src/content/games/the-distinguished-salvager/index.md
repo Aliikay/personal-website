@@ -21,7 +21,6 @@ The game also features a memory mechanic, where you are able to hold the Tab key
 
 The presentation of the game is deliberately restrictive to allow for quicker asset creation, since we only had a week to complete the game. The game runs at a resolution of 400x300, with posterized colours.
 
-# Technical Write-up
 The primary challenge of this game I had to solve was that there are, for each floor, three different states the player can be in (Inspecting, Remembering, and Searching). I did not want to have to create each level three times, or duplicate the level scene so I needed each level to be able to handle all three of the different states. To solve this, I added a flag to each level to specify whether it should have it's items randomized or not (more on how that works later), and created a container called the Level System. Inspection mode is a simple case, since I just have to spawn a new level with the randomization flag off for it to work properly. This works on top of the level system I already had to handle the main menu and cutscenes, so the entire Level System is treated as one "level" the same as any other, which then in turn spawns the actual game level.
 
 For searching, I actually spawn the level twice, once with randomizations and once without. Each level renders to it's own SubViewport, with the searching level layered above the memory level. To show the memory effect, I fade out the searching viewport to reveal the memory one underneath. 
