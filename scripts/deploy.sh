@@ -31,4 +31,4 @@ if [[ -n "$(git status -s)" ]]; then
 fi
 
 gh workflow run deploy.yml --ref main
-gh run list --workflow="deploy.yml"
+watch --interval 10 gh run list --workflow="deploy.yml"

@@ -8,3 +8,5 @@ generate_feeds = true
 +++
 
 These are all games I've made (or contributed to). Most of them are free to play on my [itch page](https://alikay.itch.io).
+
+**These games have been created with absolutely NO AI, including for code.**
