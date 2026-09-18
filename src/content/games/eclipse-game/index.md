@@ -23,7 +23,7 @@ For this game, I wanted it to have some educational factor to it. To accomplish 
 
 {{ article_image(name="dione-editor.png", width=800, height=800, op="fit", description="An image of Dione in the editor, to illustrate the low texture resolution.")}}
 
-I also paid attention to the ordering of moons from saturn, and the speeds of their orbits. The system is wildly out of scale for gameplay reasons, but the moons are in the correct order of distance from Saturn, and complete their orbits in proportional times.
+I also paid attention to the ordering of moons from Saturn, and the speeds of their orbits. The system is wildly out of scale for gameplay reasons, but the moons are in the correct order of distance from Saturn, and complete their orbits in proportional times.
 
 I decided to add Monoliths to what I decided were the interesting parts of the system. When approached, these monuments unlock and display the name of the feature they represent. This was also to add to the educational value of the game.
 
