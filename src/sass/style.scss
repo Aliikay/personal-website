@@ -129,7 +129,7 @@ div.main-row-container {
     }
 }
 
-@media (max-width: $mobile-mode-width) {
+@media (max-width: calc($mobile-mode-width - 1px)) {
     div.main-row-container {
         flex-direction: column;
     }
