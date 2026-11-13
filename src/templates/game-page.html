@@ -6,8 +6,9 @@
 <div class="section-box center-container">
     <a href="{{ page.extra.external_link | safe }}"
         ><img
-            class="content-page-thumbnail"
-            src='{{ get_url(path="/thumbs/512x512/" ~ page.extra.thumbnail ~ ".jpg") }}'
+           class="content-page-thumbnail"
+	   fetchpriority="high"
+           src='{{ get_url(path="/thumbs/512x512/" ~ page.extra.thumbnail ~ ".jpg") }}'
     /></a>
 </div>
 {% endblock abovenav %} {% block belownav %}
